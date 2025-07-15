@@ -47,6 +47,9 @@ body {
 }
 
 .statistics-info {
+  background-image: url("assets/images/dark/bg-gradient.svg");
+  background-size: cover;
+  background-position: -10px;
   margin-bottom: 120px;
   .container {
     border-bottom: 1px solid #E4E4E4;
