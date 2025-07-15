@@ -61,8 +61,6 @@ a, button {
 }
 
 a {
-  text-decoration: none;
-  color: #232323;
   color: var(--Primary-Dark-blue, #262A3F);
   font-family: Lato;
   font-size: 0.875rem;
