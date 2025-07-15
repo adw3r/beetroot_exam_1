@@ -63,7 +63,6 @@ a, button {
 a {
   text-decoration: none;
   color: #262A3F;
-  font-family: Lato, sans-serif;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
@@ -90,8 +89,8 @@ img {
 body {
   font-size: 1rem;
   color: #232323;
-  font-family: sans-serif;
   overflow-y: scroll;
+  font-family: Lato, sans-serif;
 }
 
 .page-wrapper {
@@ -104,14 +103,14 @@ body {
 }
 
 body {
-  background: url("/assets/images/bg-image.jpg") no-repeat bottom center/cover;
+  background: url("/assets/images/light/bg-image.jpg") no-repeat bottom center/cover;
 }
 
 header {
   margin-top: 30px;
   padding: 20px 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(5px);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4.5px);
 }
 header .container {
   display: flex;
@@ -123,6 +122,48 @@ header .container nav {
 header .container nav ul {
   display: flex;
   gap: 30px;
+}
+
+.hero .container {
+  padding: 150px 0;
+}
+.hero .container .content {
+  max-width: 530px;
+}
+.hero .container h1 {
+  margin-bottom: 20px;
+  color: #262A3F;
+  font-family: "Playfair Display";
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.25rem; /* 118.182% */
+}
+.hero .container h1 i {
+  color: #85BBB1;
+  font-style: italic;
+}
+.hero .container p {
+  margin-bottom: 50px;
+  color: #262A3F;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.625rem; /* 144.444% */
+  opacity: 0.8;
+  max-width: 439px;
+}
+.hero .container button {
+  font-family: Lato, sans-serif;
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem; /* 100% */
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #F1897B;
 }
 
 /*# sourceMappingURL=index.css.map */
