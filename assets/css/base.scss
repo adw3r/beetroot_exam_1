@@ -14,7 +14,18 @@ ul, ol {
 a, button {
     transition: all .2s ease;
 }
+a {
+    text-decoration: none;
+    color: $text-color;
 
+    color: var(--Primary-Dark-blue, #262A3F);
+    font-family: Lato;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 171.429% */
+    letter-spacing: 0.07rem;
+}
 button {
     cursor: pointer;
 }

@@ -1,1 +1,21 @@
 @use "base";
+
+body {
+  background: url("/assets/images/bg-image.jpg") no-repeat bottom center/cover;
+}
+
+header {
+  padding: 20px 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+      align-content: center;
+      ul {
+        display: flex;
+        gap: 30px
+      }
+    }
+  }
+}
