@@ -1,8 +1,6 @@
-@use "base";
+@use "base" as *;
 
-$text_red: #F1897B;
-$primary-dark-blue: #262A3F;
-$text-greeen: #85BBB1;
+
 body {
   background: url("/assets/images/light/bg-image.jpg") no-repeat bottom center/cover;
 }
@@ -41,7 +39,7 @@ header {
       font-weight: 400;
       line-height: 3.25rem; /* 118.182% */
       i {
-        color: $text-greeen;
+        //color: $text-greeen;
         font-style: italic;
       }
     }

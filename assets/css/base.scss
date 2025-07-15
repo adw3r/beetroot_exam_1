@@ -1,7 +1,9 @@
 @use "fonts.css";
-$text-color: #232323;
-$primary-Dark-blue: #262A3F;
+
 $container-width: min(calc(95%), 1170px);
+$primary-dark-blue: #262A3F;
+$text_red: #F1897B;
+$text-greeen: #85BBB1;
 
 *, *::before, *::after {
     padding: 0;
@@ -18,7 +20,7 @@ a, button {
 }
 a {
     text-decoration: none;
-    color: $primary-Dark-blue;
+    color: $primary-dark-blue;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 400;
@@ -43,7 +45,7 @@ img {
 
 body {
     font-size: 1rem;
-    color: $text-color;
+    color: $primary-dark-blue;
     overflow-y: scroll;
     font-family: Lato, sans-serif;
 }

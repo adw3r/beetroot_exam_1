@@ -88,7 +88,7 @@ img {
 
 body {
   font-size: 1rem;
-  color: #232323;
+  color: #262A3F;
   overflow-y: scroll;
   font-family: Lato, sans-serif;
 }
@@ -140,7 +140,6 @@ header .container nav ul {
   line-height: 3.25rem; /* 118.182% */
 }
 .hero .container h1 i {
-  color: #85BBB1;
   font-style: italic;
 }
 .hero .container p {
