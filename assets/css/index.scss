@@ -1,4 +1,13 @@
 @use "base" as *;
+p {
+  color: $primary-dark-blue;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.012rem;
+  line-height: 1.625rem; /* 144.444% */
+  opacity: 0.8;
+}
 
 [data-theme="dark"] {
   body {
@@ -18,7 +27,7 @@ body {
       max-width: 530px;
 
       h1 {
-        margin-bottom: 19px;
+        margin-bottom: 20px;
         color: $primary-dark-blue;
         font-family: "Playfair Display", serif;
         font-size: 2.75rem;
@@ -32,13 +41,6 @@ body {
       }
       p {
         margin-bottom: 50px;
-        color: $primary-dark-blue;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 300;
-        letter-spacing: 0.012rem;
-        line-height: 1.625rem; /* 144.444% */
-        opacity: 0.8;
         max-width: 439px;
       }
 
@@ -53,10 +55,14 @@ body {
   background-position: -10px;
   margin-bottom: 120px;
   .container {
-
+    height: 670px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     position: relative;
     .img-wrap {
-      max-width: 570px;
+      left: 0;
+      position: absolute;
     }
     .text-wrap {
       padding: 45px 0;
@@ -64,19 +70,9 @@ body {
       grid-template-columns: 1fr 1fr;
       opacity: 0.9;
       background: #FFF;
-      top: 0;
-      transform: translateY(8%);
-      left: calc(34% + 2px);
-      position: absolute;
-      p {
-        color: $primary-dark-blue;
-        font-family: Lato, sans-serif;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: 1.625rem; /* 144.444% */
-        opacity: 0.8;
-      }
+      max-width: 770px;
+      align-self: center;
+
       .stats-list {
         li:not(:last-child)::after {
             content: "";
@@ -125,7 +121,6 @@ body {
       }
       .content {
         margin-left: -15px;
-        margin-right: 5px;
         letter-spacing: 0.009rem;
 
         p {
