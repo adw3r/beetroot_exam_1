@@ -115,9 +115,14 @@ body {
   color: #F1897B;
 }
 
+.logo {
+  position: relative;
+  top: -1px;
+}
+
 header {
-  margin-top: 35px;
-  padding: 20px 0;
+  margin-top: 30px;
+  padding: 25px 0;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(4.5px);
 }
@@ -142,13 +147,13 @@ body {
 }
 
 .hero .container {
-  padding: 152px 0;
+  padding: 150px 0;
 }
 .hero .container .first-screen {
   max-width: 530px;
 }
 .hero .container .first-screen h1 {
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   color: #262A3F;
   font-family: "Playfair Display", serif;
   font-size: 2.75rem;
@@ -166,6 +171,7 @@ body {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 300;
+  letter-spacing: 0.012rem;
   line-height: 1.625rem; /* 144.444% */
   opacity: 0.8;
   max-width: 439px;
@@ -178,7 +184,6 @@ body {
   margin-bottom: 120px;
 }
 .statistics-info .container {
-  border-bottom: 1px solid #E4E4E4;
   position: relative;
 }
 .statistics-info .container .img-wrap {
@@ -188,7 +193,7 @@ body {
   top: 0;
   transform: translateY(8%);
   left: calc(34% + 2px);
-  padding: 45px 0 45px 0;
+  padding: 45px 0;
   opacity: 0.9;
   background: #FFF;
   display: grid;
@@ -203,13 +208,24 @@ body {
   font-weight: 300;
   line-height: 1.625rem; /* 144.444% */
   opacity: 0.8;
-  letter-spacing: 0.01rem;
 }
 .statistics-info .container .text-wrap .stats-list {
   margin-right: 12px;
-  gap: 80px;
+  gap: 79px;
   display: flex;
   flex-direction: column;
+}
+.statistics-info .container .text-wrap .stats-list li:not(:last-child)::after {
+  content: "";
+  display: block;
+  top: 39px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
+  width: 100px;
+  height: 1px;
+  background: black;
+  opacity: 0.3;
 }
 .statistics-info .container .text-wrap .stats-list .title {
   display: block;
@@ -223,15 +239,16 @@ body {
   font-weight: 400;
 }
 .statistics-info .container .text-wrap .stats-list .title .dollar_sing {
+  opacity: 0.7;
   margin-right: 10px;
   display: inline;
   color: var(--Primary-Grey, #E4E4E4);
   text-align: center;
   font-family: "Playfair Display", sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 50px; /* 125% */
+  line-height: 3.125rem; /* 125% */
 }
 .statistics-info .container .text-wrap .stats-list p.info {
   display: block;
@@ -239,6 +256,8 @@ body {
 }
 .statistics-info .container .text-wrap .content {
   margin-left: -15px;
+  margin-right: 5px;
+  letter-spacing: 0.009rem;
 }
 .statistics-info .container .text-wrap .content p {
   margin-bottom: 50px;
