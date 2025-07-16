@@ -150,7 +150,7 @@ body {
   p {
     letter-spacing: 0.012rem;
   }
-  margin-bottom: 120px;
+  margin-bottom: 127px;
   .pr-60 {
     padding-right: 60px;
 
@@ -166,6 +166,41 @@ body {
       h2 {
         margin-bottom: 31px;
       }
+    }
+  }
+}
+.blockquote {
+  background: url("/assets/images/quote-background.jpg") center center no-repeat;
+  position: relative;
+  margin-bottom: 120px;
+  //height: 400px;
+  svg {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    width: 102px;
+    height: 84px;
+  }
+  .content {
+    padding: 100px 300px 100px 160px;
+    p {
+      color: #FFF;
+      //font-family: Lato, sans-serif;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2.875rem; /* 143.75% */
+      letter-spacing: 0.09rem;
+      margin-bottom: 41px;
+    }
+    cite {
+      color: #FFF;
+      font-family: "Playfair Display";
+      font-size: 1.25rem;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.25rem; /* 100% */
+      letter-spacing: 0.1rem;
     }
   }
 }
