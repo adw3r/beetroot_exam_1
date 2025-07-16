@@ -148,6 +148,32 @@ p {
   opacity: 0.8;
 }
 
+h1 {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 2.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.25rem; /* 118.182% */
+}
+h1 i {
+  color: #85BBB1;
+  font-style: italic;
+}
+
+h2 {
+  color: #262A3F;
+  font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem; /* 118.182% */
+}
+h2 i {
+  color: #85BBB1;
+  font-style: italic;
+}
+
 [data-theme=dark] body {
   background-image: url("/assets/images/dark/bg-image.jpg");
 }
@@ -164,16 +190,6 @@ body {
 }
 .hero .first-screen h1 {
   margin-bottom: 20px;
-  color: #262A3F;
-  font-family: "Playfair Display", serif;
-  font-size: 2.75rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 3.25rem; /* 118.182% */
-}
-.hero .first-screen h1 i {
-  color: #85BBB1;
-  font-style: italic;
 }
 .hero .first-screen p {
   margin-bottom: 50px;
