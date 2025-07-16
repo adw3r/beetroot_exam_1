@@ -277,7 +277,26 @@ body {
 }
 
 .section-benefits {
+  margin-bottom: 120px;
+}
+.section-benefits p {
+  letter-spacing: 0.012rem;
+}
+.section-benefits .pr-60 {
+  padding-right: 60px;
+}
+.section-benefits ul {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 90px;
+  column-gap: 30px;
+}
+.section-benefits ul li {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 51px 54px 18px 35px;
+}
+.section-benefits ul li h2 {
+  margin-bottom: 31px;
 }
 
 /*# sourceMappingURL=index.css.map */

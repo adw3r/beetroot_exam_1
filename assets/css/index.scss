@@ -147,5 +147,25 @@ body {
 }
 
 .section-benefits {
-  display: grid;
+  p {
+    letter-spacing: 0.012rem;
+  }
+  margin-bottom: 120px;
+  .pr-60 {
+    padding-right: 60px;
+
+  }
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 90px;
+    column-gap: 30px;
+    li {
+      border-top: 1px solid rgba(0, 0, 0, 0.15);
+      padding: 51px 54px 18px 35px;
+      h2 {
+        margin-bottom: 31px;
+      }
+    }
+  }
 }
