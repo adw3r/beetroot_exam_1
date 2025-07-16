@@ -59,16 +59,15 @@ body {
       max-width: 570px;
     }
     .text-wrap {
+      padding: 45px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      opacity: 0.9;
+      background: #FFF;
       top: 0;
       transform: translateY(8%);
       left: calc(34% + 2px);
-      padding: 45px 0;
-      opacity: 0.9;
-      background: #FFF;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
       position: absolute;
-
       p {
         color: $primary-dark-blue;
         font-family: Lato, sans-serif;
