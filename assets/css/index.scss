@@ -1,4 +1,5 @@
 @use "base" as *;
+
 p {
   color: $primary-dark-blue;
   font-size: 1.125rem;
@@ -21,31 +22,29 @@ body {
 
 
 .hero {
-  .container {
-    padding: 150px 0;
-    .first-screen {
-      max-width: 530px;
+  padding: 150px 0;
 
-      h1 {
-        margin-bottom: 20px;
-        color: $primary-dark-blue;
-        font-family: "Playfair Display", serif;
-        font-size: 2.75rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 3.25rem; /* 118.182% */
-        i {
-          color: $text-greeen;
-          font-style: italic;
-        }
-      }
-      p {
-        margin-bottom: 50px;
-        max-width: 439px;
-      }
+  .first-screen {
+    max-width: 530px;
 
+    h1 {
+      margin-bottom: 20px;
+      color: $primary-dark-blue;
+      font-family: "Playfair Display", serif;
+      font-size: 2.75rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3.25rem; /* 118.182% */
+      i {
+        color: $text-greeen;
+        font-style: italic;
+      }
     }
 
+    p {
+      margin-bottom: 50px;
+      max-width: 439px;
+    }
   }
 }
 
@@ -54,80 +53,88 @@ body {
   background-size: cover;
   background-position: -10px;
   margin-bottom: 120px;
-    height: 670px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    position: relative;
-    .img-wrap {
-      left: 0;
-      position: absolute;
-    }
-    .text-wrap {
-      padding: 45px 0;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      opacity: 0.9;
-      background: #FFF;
-      max-width: 770px;
-      align-self: center;
+  height: 670px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  position: relative;
 
-      .stats-list {
-        li:not(:last-child)::after {
-            content: "";
-            display: block;
-            top: 39px;
-            left: 50%;
-            transform: translateX(-50%);
-            position: relative;
-            width: 100px;
-            height: 1px;
-            background: black;
-            opacity: .3;
-        }
-        margin-right: 12px;
-        gap: 79px;
-        display: flex;
-        flex-direction: column;
-        .title {
-          .dollar_sing {
-            opacity: 0.7;
-            margin-right: 10px;
-            display: inline;
-            color: var(--Primary-Grey, #E4E4E4);
-            text-align: center;
-            font-family: "Playfair Display", sans-serif;
-            font-size: 2.5rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 3.125rem; /* 125% */
-          }
-          display: block;
-          margin-bottom: 12px;
-          font-size: 4.25rem;
-          line-height: 4.5rem; /* 105.882% */
-          color: $primary-dark-blue;
+  .img-wrap {
+    left: 0;
+    position: absolute;
+  }
+
+  .text-wrap {
+    padding: 45px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    opacity: 0.9;
+    background: #FFF;
+    max-width: 770px;
+    align-self: center;
+
+    .stats-list {
+      li:not(:last-child)::after {
+        content: "";
+        display: block;
+        top: 39px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        width: 100px;
+        height: 1px;
+        background: black;
+        opacity: .3;
+      }
+
+      margin-right: 12px;
+      gap: 79px;
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        .dollar_sing {
+          opacity: 0.7;
+          margin-right: 10px;
+          display: inline;
+          color: var(--Primary-Grey, #E4E4E4);
           text-align: center;
           font-family: "Playfair Display", sans-serif;
+          font-size: 2.5rem;
           font-style: normal;
           font-weight: 400;
-        }
-        p.info {
-          display: block;
-          text-align: center;
+          line-height: 3.125rem; /* 125% */
         }
 
+        display: block;
+        margin-bottom: 12px;
+        font-size: 4.25rem;
+        line-height: 4.5rem; /* 105.882% */
+        color: $primary-dark-blue;
+        text-align: center;
+        font-family: "Playfair Display", sans-serif;
+        font-style: normal;
+        font-weight: 400;
       }
-      .content {
-        margin-left: -15px;
-        letter-spacing: 0.009rem;
 
-        p {
-          margin-bottom: 50px;
-          &:first-child {
-            margin-bottom: 30px;
-          }
+      p.info {
+        display: block;
+        text-align: center;
+      }
+
+    }
+
+    .content {
+      margin-left: -15px;
+      letter-spacing: 0.009rem;
+
+      p {
+        margin-bottom: 50px;
+
+        &:first-child {
+          margin-bottom: 30px;
         }
       }
     }
+  }
 }
