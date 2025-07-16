@@ -333,4 +333,48 @@ body {
   letter-spacing: 0.1rem;
 }
 
+.section-video {
+  margin-bottom: 120px;
+}
+.section-video h2 {
+  margin-bottom: 25px;
+}
+.section-video .container {
+  width: calc(min(95%, 1170px) - 200px);
+}
+.section-video p {
+  width: calc(100% - 100px);
+  letter-spacing: 0.009rem;
+}
+.section-video .video-wrap {
+  margin-bottom: 52px;
+  padding: 30px 70px 30px 30px;
+  width: 970px;
+  height: 600px;
+  background-image: url("/assets/images/screensaver-video.png");
+  background-repeat: no-repeat;
+  background-size: 870px 540px;
+  background-position: 30px;
+  border-radius: 32px;
+  border: 1px solid var(--Primary-Grey, #E4E4E4);
+  position: relative;
+}
+.section-video .video-wrap .ipad-circles {
+  position: relative;
+  top: calc(50% - 17px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0;
+}
+.section-video .video-wrap .ipad-circles svg {
+  position: relative;
+}
+.section-video .video-wrap .ipad-circles svg:first-child {
+  left: -22px;
+}
+.section-video .video-wrap .ipad-circles svg:last-child {
+  left: 57px;
+}
+
 /*# sourceMappingURL=index.css.map */
