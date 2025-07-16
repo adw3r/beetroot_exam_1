@@ -260,4 +260,8 @@ body {
   margin-bottom: 30px;
 }
 
+.section-benefits {
+  display: grid;
+}
+
 /*# sourceMappingURL=index.css.map */
