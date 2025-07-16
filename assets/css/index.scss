@@ -60,8 +60,8 @@ body {
     .text-wrap {
       top: 0;
       transform: translateY(8%);
-      left: 34%;
-      padding: 45px 3px 45px 0;
+      left: calc(34% + 2px);
+      padding: 45px 0 45px 0;
       opacity: 0.9;
       background: #FFF;
       display: grid;
@@ -75,14 +75,26 @@ body {
         font-style: normal;
         font-weight: 300;
         line-height: 1.625rem; /* 144.444% */
-
         opacity: 0.8;
+        letter-spacing: 0.01rem;
       }
       .stats-list {
+        margin-right: 12px;
         gap: 80px;
         display: flex;
         flex-direction: column;
-        h2 {
+        .title {
+          .dollar_sing {
+            margin-right: 10px;
+            display: inline;
+            color: var(--Primary-Grey, #E4E4E4);
+            text-align: center;
+            font-family: "Playfair Display", sans-serif;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 50px; /* 125% */
+          }
           display: block;
           margin-bottom: 12px;
           font-size: 4.25rem;
@@ -93,17 +105,19 @@ body {
           font-style: normal;
           font-weight: 400;
         }
-        p {
+        p.info {
           display: block;
           text-align: center;
         }
 
       }
       .content {
+        margin-left: -15px;
+
         p {
           margin-bottom: 50px;
           &:first-child {
-            margin-bottom: 35px;
+            margin-bottom: 30px;
           }
         }
       }

@@ -187,8 +187,8 @@ body {
 .statistics-info .container .text-wrap {
   top: 0;
   transform: translateY(8%);
-  left: 34%;
-  padding: 45px 3px 45px 0;
+  left: calc(34% + 2px);
+  padding: 45px 0 45px 0;
   opacity: 0.9;
   background: #FFF;
   display: grid;
@@ -203,13 +203,15 @@ body {
   font-weight: 300;
   line-height: 1.625rem; /* 144.444% */
   opacity: 0.8;
+  letter-spacing: 0.01rem;
 }
 .statistics-info .container .text-wrap .stats-list {
+  margin-right: 12px;
   gap: 80px;
   display: flex;
   flex-direction: column;
 }
-.statistics-info .container .text-wrap .stats-list h2 {
+.statistics-info .container .text-wrap .stats-list .title {
   display: block;
   margin-bottom: 12px;
   font-size: 4.25rem;
@@ -220,15 +222,29 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.statistics-info .container .text-wrap .stats-list p {
+.statistics-info .container .text-wrap .stats-list .title .dollar_sing {
+  margin-right: 10px;
+  display: inline;
+  color: var(--Primary-Grey, #E4E4E4);
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 125% */
+}
+.statistics-info .container .text-wrap .stats-list p.info {
   display: block;
   text-align: center;
+}
+.statistics-info .container .text-wrap .content {
+  margin-left: -15px;
 }
 .statistics-info .container .text-wrap .content p {
   margin-bottom: 50px;
 }
 .statistics-info .container .text-wrap .content p:first-child {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
