@@ -180,24 +180,24 @@ body {
   max-width: 439px;
 }
 
-.statistics-info {
+.section-info {
   background-image: url("assets/images/dark/bg-gradient.svg");
   background-size: cover;
   background-position: -10px;
   margin-bottom: 120px;
 }
-.statistics-info .container {
+.section-info .container {
   height: 670px;
   display: flex;
   flex-direction: row;
   justify-content: end;
   position: relative;
 }
-.statistics-info .container .img-wrap {
+.section-info .container .img-wrap {
   left: 0;
   position: absolute;
 }
-.statistics-info .container .text-wrap {
+.section-info .container .text-wrap {
   padding: 45px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -206,13 +206,13 @@ body {
   max-width: 770px;
   align-self: center;
 }
-.statistics-info .container .text-wrap .stats-list {
+.section-info .container .text-wrap .stats-list {
   margin-right: 12px;
   gap: 79px;
   display: flex;
   flex-direction: column;
 }
-.statistics-info .container .text-wrap .stats-list li:not(:last-child)::after {
+.section-info .container .text-wrap .stats-list li:not(:last-child)::after {
   content: "";
   display: block;
   top: 39px;
@@ -224,7 +224,7 @@ body {
   background: black;
   opacity: 0.3;
 }
-.statistics-info .container .text-wrap .stats-list .title {
+.section-info .container .text-wrap .stats-list .title {
   display: block;
   margin-bottom: 12px;
   font-size: 4.25rem;
@@ -235,7 +235,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.statistics-info .container .text-wrap .stats-list .title .dollar_sing {
+.section-info .container .text-wrap .stats-list .title .dollar_sing {
   opacity: 0.7;
   margin-right: 10px;
   display: inline;
@@ -247,18 +247,18 @@ body {
   font-weight: 400;
   line-height: 3.125rem; /* 125% */
 }
-.statistics-info .container .text-wrap .stats-list p.info {
+.section-info .container .text-wrap .stats-list p.info {
   display: block;
   text-align: center;
 }
-.statistics-info .container .text-wrap .content {
+.section-info .container .text-wrap .content {
   margin-left: -15px;
   letter-spacing: 0.009rem;
 }
-.statistics-info .container .text-wrap .content p {
+.section-info .container .text-wrap .content p {
   margin-bottom: 50px;
 }
-.statistics-info .container .text-wrap .content p:first-child {
+.section-info .container .text-wrap .content p:first-child {
   margin-bottom: 30px;
 }
 
