@@ -185,19 +185,17 @@ body {
   background-size: cover;
   background-position: -10px;
   margin-bottom: 120px;
-}
-.section-info .container {
   height: 670px;
   display: flex;
   flex-direction: row;
   justify-content: end;
   position: relative;
 }
-.section-info .container .img-wrap {
+.section-info .img-wrap {
   left: 0;
   position: absolute;
 }
-.section-info .container .text-wrap {
+.section-info .text-wrap {
   padding: 45px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -206,13 +204,13 @@ body {
   max-width: 770px;
   align-self: center;
 }
-.section-info .container .text-wrap .stats-list {
+.section-info .text-wrap .stats-list {
   margin-right: 12px;
   gap: 79px;
   display: flex;
   flex-direction: column;
 }
-.section-info .container .text-wrap .stats-list li:not(:last-child)::after {
+.section-info .text-wrap .stats-list li:not(:last-child)::after {
   content: "";
   display: block;
   top: 39px;
@@ -224,7 +222,7 @@ body {
   background: black;
   opacity: 0.3;
 }
-.section-info .container .text-wrap .stats-list .title {
+.section-info .text-wrap .stats-list .title {
   display: block;
   margin-bottom: 12px;
   font-size: 4.25rem;
@@ -235,7 +233,7 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.section-info .container .text-wrap .stats-list .title .dollar_sing {
+.section-info .text-wrap .stats-list .title .dollar_sing {
   opacity: 0.7;
   margin-right: 10px;
   display: inline;
@@ -247,18 +245,18 @@ body {
   font-weight: 400;
   line-height: 3.125rem; /* 125% */
 }
-.section-info .container .text-wrap .stats-list p.info {
+.section-info .text-wrap .stats-list p.info {
   display: block;
   text-align: center;
 }
-.section-info .container .text-wrap .content {
+.section-info .text-wrap .content {
   margin-left: -15px;
   letter-spacing: 0.009rem;
 }
-.section-info .container .text-wrap .content p {
+.section-info .text-wrap .content p {
   margin-bottom: 50px;
 }
-.section-info .container .text-wrap .content p:first-child {
+.section-info .text-wrap .content p:first-child {
   margin-bottom: 30px;
 }
 
