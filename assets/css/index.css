@@ -529,7 +529,6 @@ body {
   margin-bottom: 52px;
   padding: 30px 70px 30px 30px;
   height: 600px;
-  background-position: 30px;
   border-radius: 32px;
   border: 1px solid #E4E4E4;
   position: relative;
@@ -539,6 +538,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+  border: 1px solid #E4E4E4;
 }
 .section-video .video-wrap .play-button {
   top: 50%;

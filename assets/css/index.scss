@@ -189,10 +189,8 @@ body {
     margin-bottom: 52px;
     padding: 30px 70px 30px 30px;
 
-    //width: 100%;
     height: 600px;
-    //background-size: 870px 540px;
-    background-position: 30px;
+    //background-position: 30px;
 
     border-radius: 32px;
     border: $border;
@@ -202,6 +200,7 @@ body {
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
+      border: $border;
     }
     .play-button {
       //position: relative;
