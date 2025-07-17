@@ -633,6 +633,11 @@ body {
   position: relative;
   flex-grow: 1;
 }
+@media screen and (max-width: 900px) {
+  .section-promises {
+    margin-bottom: 90px;
+  }
+}
 .section-promises .content-wrap {
   height: 450px;
   padding: 75px 1px 75px 69px;
