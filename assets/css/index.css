@@ -493,7 +493,7 @@ body {
 .section-benefits p {
   letter-spacing: 0.012rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .section-benefits {
     margin-bottom: 90px;
   }
