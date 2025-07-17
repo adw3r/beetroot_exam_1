@@ -470,7 +470,17 @@ body {
   margin-bottom: 7px;
 }
 
-.section-client-reviews .container {
+.section-client-reviews {
+  margin-bottom: 100px;
+}
+.section-client-reviews hgroup {
+  margin-bottom: 50px;
+  max-width: 400px;
+}
+.section-client-reviews hgroup h2 {
+  margin-bottom: 20px;
+}
+.section-client-reviews ul {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(1fr, 370px));
 }
