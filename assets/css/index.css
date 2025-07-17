@@ -493,7 +493,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-benefits {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
   }
 }
 .section-benefits ul {
@@ -505,6 +505,7 @@ body {
 @media (max-width: 900px) {
   .section-benefits ul {
     grid-template-columns: 1fr;
+    row-gap: 45px;
   }
 }
 .section-benefits ul li {

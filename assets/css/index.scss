@@ -130,7 +130,7 @@ body {
 
   margin-bottom: 127px;
   @media screen  and (max-width: 768px) {
-    margin-bottom: 50px;
+    margin-bottom: 90px;
   }
 
   //.pr-60 {
@@ -142,6 +142,7 @@ body {
     grid-template-columns: 1fr 1fr;
     @media (max-width: 900px) {
       grid-template-columns: 1fr;
+      row-gap: 45px;
     }
     row-gap: 90px;
     column-gap: 30px;
