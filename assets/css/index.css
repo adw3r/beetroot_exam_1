@@ -476,47 +476,37 @@ body {
 }
 .section-client-reviews hgroup {
   margin-bottom: 50px;
-  max-width: 400px;
+  width: 400px;
 }
 .section-client-reviews hgroup h2 {
   margin-bottom: 20px;
 }
-.section-client-reviews ul.cards {
+.section-client-reviews ul {
   display: grid;
   grid-template-columns: repeat(3, 370px);
   gap: 30px;
 }
-.section-client-reviews ul.cards li.card {
+.section-client-reviews ul li {
   position: relative;
   height: 340px;
 }
-.section-client-reviews ul.cards li.card div.img-wrap {
+.section-client-reviews ul li .img-wrap {
   position: absolute;
   z-index: -1;
 }
-.section-client-reviews ul.cards li.card .review_quote {
+.section-client-reviews ul li blockquote {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: rgba(25, 28, 41, 0.6);
   padding: 30px 40px;
-  color: #FFF;
 }
-.section-client-reviews ul.cards li.card .review_quote p {
+.section-client-reviews ul li blockquote p {
   color: #FFF;
   font-size: 1rem;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.625rem; /* 162.5% */
-}
-.section-client-reviews ul.cards li.card .review_quote cite {
-  font-family: "Playfair Display";
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.25rem; /* 100% */
-  letter-spacing: 0.1rem;
 }
 
 /*# sourceMappingURL=index.css.map */
