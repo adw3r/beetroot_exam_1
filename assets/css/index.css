@@ -139,6 +139,7 @@ img {
 }
 
 .btn {
+  transition: all 0.2s ease;
   font-family: Lato, sans-serif;
   background: none;
   border: none;
@@ -150,17 +151,25 @@ img {
   text-transform: uppercase;
   color: #F1897B;
 }
-.btn:hover {
+.btn:hover, .btn:focus {
   color: #E54F3A;
 }
-.btn:hover span::after {
+.btn:hover span::after, .btn:focus span::after {
   background-color: #E54F3A;
+}
+.btn:active span {
+  scale: 1.3;
+}
+.btn:active span::after {
+  scale: 0.3;
 }
 .btn span {
   display: inline-block;
   position: relative;
+  transition: all 0.2s ease;
 }
 .btn span::after {
+  transition: all 0.2s ease;
   width: 98%;
   content: "";
   top: 52%;
