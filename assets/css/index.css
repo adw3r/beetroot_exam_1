@@ -236,6 +236,11 @@ cite {
   letter-spacing: 0.1rem;
 }
 
+.img-wrap {
+  left: 0;
+  position: absolute;
+}
+
 [data-theme=dark] body {
   background-image: url("/assets/images/dark/bg.png");
 }
@@ -265,10 +270,6 @@ body {
   flex-direction: row;
   justify-content: end;
   position: relative;
-}
-.section-info .img-wrap {
-  left: 0;
-  position: absolute;
 }
 .section-info .text-wrap {
   padding: 45px 0;
@@ -434,10 +435,6 @@ body {
   justify-content: end;
   position: relative;
   flex-grow: 1;
-}
-.section-promises .img-wrap {
-  left: 0;
-  position: absolute;
 }
 .section-promises .content-wrap {
   height: 450px;
