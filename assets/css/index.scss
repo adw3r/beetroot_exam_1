@@ -324,7 +324,6 @@ body {
   margin-bottom: 100px;
   @media screen and (max-width: 900px) {
     margin-bottom: 65px;
-
   }
 
   hgroup {
@@ -352,6 +351,9 @@ body {
       height: 340px;
       @media screen and (max-width: 1024px) {
         height: 100%;
+      }
+      @media screen and (max-width: 900px) {
+        height: 240px;
       }
 
       .img-wrap {
