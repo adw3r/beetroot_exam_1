@@ -669,7 +669,7 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .section-client-reviews hgroup {
-    width: 60%;
+    width: 75%;
   }
 }
 .section-client-reviews hgroup h2 {
