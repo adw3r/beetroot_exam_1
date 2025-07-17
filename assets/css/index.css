@@ -60,6 +60,37 @@ a, button {
   transition: all 0.2s ease;
 }
 
+input {
+  border: none;
+}
+
+input {
+  border-bottom: 1px solid #E4E4E4;
+  height: 32px;
+  padding-bottom: 12px;
+  width: 100%;
+  color: #262A3F;
+  opacity: 0.6;
+  font-family: "Playfair Display";
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.25rem; /* 111.111% */
+  letter-spacing: 0.09rem;
+}
+
+form {
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: start;
+  border: none;
+}
+form label {
+  width: 100%;
+}
+
 a {
   text-decoration: none;
   color: #262A3F;
@@ -521,32 +552,6 @@ body {
 }
 .section-cta .contact-us hgroup h2 {
   margin-bottom: 25px;
-}
-.section-cta .contact-us form {
-  width: 470px;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: start;
-  border: none;
-}
-.section-cta .contact-us form label {
-  width: 100%;
-}
-.section-cta .contact-us form input {
-  border: none;
-  border-bottom: 1px solid #E4E4E4;
-  height: 32px;
-  padding-bottom: 12px;
-  width: 100%;
-  color: #262A3F;
-  opacity: 0.6;
-  font-family: "Playfair Display";
-  font-size: 1.125rem;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.25rem; /* 111.111% */
-  letter-spacing: 0.09rem;
 }
 
 /*# sourceMappingURL=index.css.map */
