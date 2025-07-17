@@ -150,6 +150,12 @@ img {
   text-transform: uppercase;
   color: #F1897B;
 }
+.btn:hover {
+  color: #E54F3A;
+}
+.btn:hover span::after {
+  background-color: #E54F3A;
+}
 .btn span {
   display: inline-block;
   position: relative;
@@ -162,7 +168,7 @@ img {
   position: absolute;
   height: 14px;
   opacity: 0.3;
-  background: var(--Secondary-Coral, #F1897B);
+  background-color: #F1897B;
 }
 
 h1 {

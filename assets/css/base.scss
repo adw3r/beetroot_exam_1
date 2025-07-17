@@ -7,7 +7,7 @@ $text-greeen: #85BBB1;
 $secondary-coral: rgba(241, 137, 123, 0.25);
 $primary-grey: #E4E4E4;
 $border: 1px solid $primary-grey;
-
+$red-dark: #E54F3A;
 
 *, *::before, *::after {
     padding: 0;
@@ -95,6 +95,12 @@ img {
     top: -1px
 }
 .btn {
+    &:hover {
+        color: $red-dark;
+        & span::after {
+            background-color: $red-dark;
+        }
+    }
     font-family: Lato,sans-serif;
 
     background: none;
@@ -118,7 +124,7 @@ img {
             position: absolute;
             height: 14px;
             opacity: 0.3;
-            background: var(--Secondary-Coral, #F1897B);
+            background-color: $text_red;
         }
     }
 }
