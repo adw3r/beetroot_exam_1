@@ -94,3 +94,33 @@ header {
         }
     }
 }
+@mixin h_tag($font_size, $line-height) {
+    color: $primary-dark-blue;
+    font-family: "Playfair Display", serif;
+    font-size: $font_size;
+    font-style: normal;
+    font-weight: 400;
+    line-height: $line-height; /* 118.182% */
+    i {
+        color: $text-greeen;
+        font-style: italic;
+    }
+}
+h1 {
+    @include h_tag(2.75rem, 3.25rem);
+}
+h2 {
+    @include h_tag(2.5rem, 3rem);
+}
+h3 {
+    @include h_tag(2.25rem, 3rem);
+}
+h4 {
+    @include h_tag(2rem, 3rem);
+}
+h5 {
+    @include h_tag(1.75rem, 3rem);
+}
+h6 {
+    @include h_tag(1.5rem, 3rem);
+}
