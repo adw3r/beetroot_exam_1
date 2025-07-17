@@ -281,12 +281,15 @@ body {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     align-self: center;
-    @media screen  and (max-width: 850px) {
+    @media screen  and (max-width: 900px) {
       height: 80%;
-      gap: 0;
+      gap: 5px;
       padding: 20px;
       width: 75%;
       grid-template-columns: 1fr;
+      .btn {
+        padding-block: 15px;
+      }
     }
 
     row-gap: 60px;

@@ -655,13 +655,16 @@ body {
   opacity: 0.9;
   background: #FFF;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   .section-promises .content-wrap {
     height: 80%;
-    gap: 0;
+    gap: 5px;
     padding: 20px;
     width: 75%;
     grid-template-columns: 1fr;
+  }
+  .section-promises .content-wrap .btn {
+    padding-block: 15px;
   }
 }
 .section-promises .content-wrap .mb-30 {
