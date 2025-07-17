@@ -590,6 +590,11 @@ body {
   border: 1px solid #E4E4E4;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .section-video .video-wrap {
+    padding: 30px 50px 30px 30px;
+  }
+}
 .section-video .video-wrap .inner-video-wrap {
   background-image: url("/assets/images/screensaver-video.png");
   background-repeat: no-repeat;

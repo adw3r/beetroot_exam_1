@@ -221,7 +221,9 @@ body {
   .video-wrap {
     margin-bottom: 52px;
     padding: 30px 70px 30px 30px;
-    //height: 600px;
+    @media screen  and (max-width: 768px) {
+      padding: 30px 50px 30px 30px;
+    }
     border-radius: 32px;
     aspect-ratio: 16/9;
     border: $border;
@@ -234,7 +236,6 @@ body {
       border: $border;
     }
     .play-button {
-      //position: relative;
       top: 50%;
     }
     .circle {
