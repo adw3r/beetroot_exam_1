@@ -6,6 +6,8 @@ $text_red: #F1897B;
 $text-greeen: #85BBB1;
 $secondary-coral: rgba(241, 137, 123, 0.25);
 $primary-grey: #E4E4E4;
+$border: 1px solid $primary-grey;
+
 
 *, *::before, *::after {
     padding: 0;
@@ -125,4 +127,22 @@ h5 {
 }
 h6 {
     @include h_tag(1.5rem, 3rem);
+}
+p {
+    color: $primary-dark-blue;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.012rem;
+    line-height: 1.625rem; /* 144.444% */
+    opacity: 0.8;
+}
+cite {
+    color: #FFF;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.25rem; /* 100% */
+    letter-spacing: 0.1rem;
 }

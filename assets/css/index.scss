@@ -1,23 +1,6 @@
 @use "base" as *;
 
-p {
-  color: $primary-dark-blue;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0.012rem;
-  line-height: 1.625rem; /* 144.444% */
-  opacity: 0.8;
-}
-cite {
-  color: #FFF;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.25rem; /* 100% */
-  letter-spacing: 0.1rem;
-}
+
 
 [data-theme="dark"] {
   body {
@@ -208,7 +191,7 @@ body {
     background-position: 30px;
 
     border-radius: 32px;
-    border: 1px solid $primary-grey;
+    border: $border;
     position: relative;
     .ipad-circles {
       svg {
@@ -323,6 +306,7 @@ body {
   }
 }
 .section-cta {
+  border-top: $border;
   padding-top: 60px;
   .contact-us {
     display: flex;

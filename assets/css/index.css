@@ -510,6 +510,7 @@ body {
 }
 
 .section-cta {
+  border-top: 1px solid #E4E4E4;
   padding-top: 60px;
 }
 .section-cta .contact-us {
