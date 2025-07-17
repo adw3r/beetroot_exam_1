@@ -286,11 +286,12 @@ footer {
     margin-right: 9px;
   }
 
-  letter-spacing: 0.01rem;
   display: flex;
   justify-content: space-between;
-  border-top: $border;
   align-items: center;
+
+  letter-spacing: 0.01rem;
+  border-top: $border;
   height: 90px;
   font-size: 0.875rem;
   font-style: normal;

@@ -337,11 +337,11 @@ header .container nav ul li:hover {
 }
 
 footer {
-  letter-spacing: 0.01rem;
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #E4E4E4;
   align-items: center;
+  letter-spacing: 0.01rem;
+  border-top: 1px solid #E4E4E4;
   height: 90px;
   font-size: 0.875rem;
   font-style: normal;
@@ -746,6 +746,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 900px) {
+  .section-cta .contact-us {
+    flex-direction: column;
+  }
+}
 .section-cta .contact-us p {
   letter-spacing: 0.02rem;
 }
@@ -755,6 +760,9 @@ body {
 }
 .section-cta .contact-us hgroup h2 {
   margin-bottom: 25px;
+}
+.section-cta .contact-us form {
+  align-self: center;
 }
 
 /*# sourceMappingURL=index.css.map */
