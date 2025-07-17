@@ -316,6 +316,12 @@ header .container nav ul {
   display: flex;
   gap: 28px;
 }
+header .container nav ul li {
+  transition: all 0.2s ease;
+}
+header .container nav ul li:hover {
+  scale: 1.3;
+}
 
 .op-06 {
   opacity: 0.6;

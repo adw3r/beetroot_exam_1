@@ -37,7 +37,6 @@ body {
   position: relative;
 
 
-
   .text-wrap {
     padding: 45px 0;
     display: grid;
@@ -97,6 +96,7 @@ body {
       }
 
     }
+
     .content {
       margin-left: -15px;
       letter-spacing: 0.009rem;
@@ -116,25 +116,31 @@ body {
   p {
     letter-spacing: 0.012rem;
   }
+
   margin-bottom: 127px;
+
   .pr-60 {
     padding-right: 60px;
 
   }
+
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 90px;
     column-gap: 30px;
+
     li {
       border-top: 1px solid rgba(0, 0, 0, 0.15);
       padding: 51px 54px 18px 35px;
+
       h2 {
         margin-bottom: 31px;
       }
     }
   }
 }
+
 .blockquote {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   position: relative;
@@ -147,8 +153,10 @@ body {
     width: 102px;
     height: 84px;
   }
+
   .content {
     padding: 100px 300px 100px 160px;
+
     p {
       color: #FFF;
       //font-family: Lato, sans-serif;
@@ -164,16 +172,20 @@ body {
 
 .section-video {
   margin-bottom: 120px;
+
   h2 {
     margin-bottom: 25px;
   }
+
   .container {
     width: calc($container-width - 200px);
   }
+
   p {
-    width:  calc(100% - 100px);
+    width: calc(100% - 100px);
     letter-spacing: 0.009rem;
   }
+
   .video-wrap {
     margin-bottom: 52px;
     padding: 30px 70px 30px 30px;
@@ -188,17 +200,21 @@ body {
     border-radius: 32px;
     border: $border;
     position: relative;
+
     .ipad-circles {
       svg {
         position: relative;
+
         &:first-child {
           left: -22px;
         }
+
         &:last-child {
           left: 57px;
         }
 
       }
+
       position: relative;
       top: calc(50% - 17px);
       display: flex;
@@ -239,6 +255,7 @@ body {
       p {
         letter-spacing: 0.011rem;
       }
+
       h6 {
         margin-bottom: 7px;
       }
@@ -252,21 +269,26 @@ body {
   hgroup {
     margin-bottom: 50px;
     width: 400px;
+
     h2 {
       margin-bottom: 20px;
     }
   }
+
   ul {
     display: grid;
     grid-template-columns: repeat(3, 370px);
     gap: 30px;
+
     li {
       position: relative;
       height: 340px;
+
       .img-wrap {
         position: absolute;
         z-index: -1;
       }
+
       blockquote {
         height: 100%;
         display: flex;
@@ -295,12 +317,15 @@ body {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+
     p {
       letter-spacing: 0.02rem;
     }
+
     hgroup {
       margin-top: 15px;
       width: 470px;
+
       h2 {
         margin-bottom: 25px;
       }
