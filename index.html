@@ -149,14 +149,24 @@
         <section class="section-video">
             <div class="container">
                 <div class="video-wrap">
-                    <div class="ipad-circles">
-                        <svg fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="6.5" cy="6.5" r="6" stroke="#E4E4E4"/>
-                        </svg>
-                        <svg fill="none" height="35" viewBox="0 0 35 35" width="35" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="17.5" cy="17.5" r="17" stroke="#E4E4E4"/>
-                        </svg>
+                    <svg fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg" class="circle circle-sm">
+                        <circle cx="6.5" cy="6.5" r="6" stroke="#E4E4E4"/>
+                    </svg>
+                    <div class="inner-video-wrap">
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen frameborder="0"
+                                referrerpolicy="strict-origin-when-cross-origin"
+                                src="https://www.youtube.com/embed/vnbN9V_2Guk?si=eZs7DGGkGR660rTq"
+                                title="YouTube video player" ></iframe>
+                        <button onclick="document.querySelector('iframe').style.display='block';this.style.display='none'" class="play-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+                                <circle opacity="0.3" cx="60" cy="60" r="60" fill="#586291"/>
+                                <path d="M81.3175 58.615C82.0301 58.9898 82.0301 60.0102 81.3175 60.385L50.7155 76.4826C50.0496 76.8329 49.25 76.35 49.25 75.5976L49.25 43.4024C49.25 42.65 50.0496 42.1671 50.7155 42.5174L81.3175 58.615Z" fill="#262A3F"/>
+                            </svg>
+                        </button>
                     </div>
+                    <svg fill="none" height="35" viewBox="0 0 35 35" width="35" xmlns="http://www.w3.org/2000/svg" class="circle circle-xl">
+                        <circle cx="17.5" cy="17.5" r="17" stroke="#E4E4E4"/>
+                    </svg>
                 </div>
                 <h2>A <i>powerful API</i> , easy to use user interface</h2>
                 <p>Our API allows all members to interact with Stablehouse’s platform, from effecting transfers to
