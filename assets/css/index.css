@@ -594,7 +594,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-video .video-wrap {
-    padding: 30px 50px 30px 30px;
+    padding-right: 50px;
   }
 }
 .section-video .video-wrap .inner-video-wrap {
@@ -655,25 +655,13 @@ body {
   opacity: 0.9;
   background: #FFF;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .section-promises .content-wrap {
-    height: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .section-promises .content-wrap {
-    flex-grow: 1;
-    height: 100%;
-    flex-direction: column;
-    gap: 30px;
-    padding: 30px;
+    height: 80%;
+    gap: 0;
+    padding: 20px;
+    width: 75%;
     grid-template-columns: 1fr;
-    row-gap: 0;
-    column-gap: 0;
-  }
-  .section-promises .content-wrap .item {
-    display: flex;
-    flex-direction: column;
   }
 }
 .section-promises .content-wrap .mb-30 {

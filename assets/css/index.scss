@@ -222,7 +222,7 @@ body {
     margin-bottom: 76px;
     padding: 30px 70px 30px 30px;
     @media screen  and (max-width: 768px) {
-      padding: 30px 50px 30px 30px;
+      padding-right: 50px;
     }
     border-radius: 32px;
     aspect-ratio: 16/9;
@@ -275,31 +275,18 @@ body {
 
   .content-wrap {
     height: 450px;
-    @media screen  and (max-width: 768px) {
-      height: 100%;
-    }
     padding: 75px 1px 75px 69px;
     max-width: 771px;
 
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     align-self: center;
-    @media screen  and (max-width: 768px) {
-      //display: flex;
-      flex-grow: 1;
-      .item {
-        display: flex;
-        flex-direction: column;
-      }
-      height: 100%;
-      flex-direction: column;
-      gap: 30px;
-      padding: 30px;
-
+    @media screen  and (max-width: 850px) {
+      height: 80%;
+      gap: 0;
+      padding: 20px;
+      width: 75%;
       grid-template-columns: 1fr;
-      row-gap: 0;
-      column-gap: 0;
-
     }
 
     row-gap: 60px;
