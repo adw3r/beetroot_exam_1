@@ -163,14 +163,28 @@ body {
   margin-bottom: 120px;
   svg {
     position: absolute;
-    top: 70px;
-    left: 100px;
     width: 102px;
     height: 84px;
+
+    top: 70px;
+    left: 100px;
+    @media screen  and (max-width: 1024px) {
+      left: 30px;
+      top: 20px;
+    }
+    @media screen  and (max-width: 768px) {
+      left: 50px;
+      top: 100px;
+      //scale: 0.8;
+    }
   }
 
   .content {
+
     padding: 100px 300px 100px 160px;
+    @media screen  and (max-width: 1024px) {
+      padding: 50px;
+    }
 
     p {
       max-width: 770px;

@@ -522,13 +522,30 @@ body {
 }
 .blockquote svg {
   position: absolute;
-  top: 70px;
-  left: 100px;
   width: 102px;
   height: 84px;
+  top: 70px;
+  left: 100px;
+}
+@media screen and (max-width: 1024px) {
+  .blockquote svg {
+    left: 30px;
+    top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .blockquote svg {
+    left: 50px;
+    top: 100px;
+  }
 }
 .blockquote .content {
   padding: 100px 300px 100px 160px;
+}
+@media screen and (max-width: 1024px) {
+  .blockquote .content {
+    padding: 50px;
+  }
 }
 .blockquote .content p {
   max-width: 770px;
