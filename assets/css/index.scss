@@ -317,13 +317,15 @@ body {
     li {
       position: relative;
       height: 340px;
+      @media screen  and (max-width: 1204px) {
+        height: 100%;
+      }
 
       .img-wrap {
         position: absolute;
         z-index: -1;
         height: 100%;
         width: 100%;
-
       }
 
       blockquote {

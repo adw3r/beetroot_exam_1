@@ -679,6 +679,11 @@ body {
   position: relative;
   height: 340px;
 }
+@media screen and (max-width: 1204px) {
+  .section-client-reviews ul li {
+    height: 100%;
+  }
+}
 .section-client-reviews ul li .img-wrap {
   position: absolute;
   z-index: -1;
