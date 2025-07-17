@@ -130,7 +130,7 @@ body {
 
   margin-bottom: 127px;
   @media screen and (max-width: 900px) {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 
   ul {
@@ -339,21 +339,23 @@ body {
   }
 
   ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    @media screen and (max-width: 900px) {
-      grid-template-columns: auto
-    }
+    display: flex;
     gap: 30px;
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      gap: 20px;
+    }
 
     li {
       position: relative;
       height: 340px;
+      width: 370px;
       @media screen and (max-width: 1024px) {
-        height: 100%;
+        height: auto;
       }
       @media screen and (max-width: 900px) {
         height: 240px;
+        width: 100%;
       }
 
       .img-wrap {

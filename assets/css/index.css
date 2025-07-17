@@ -495,7 +495,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .section-benefits {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 }
 .section-benefits ul {
@@ -698,27 +698,29 @@ body {
   margin-bottom: 20px;
 }
 .section-client-reviews ul {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 30px;
 }
 @media screen and (max-width: 900px) {
   .section-client-reviews ul {
-    grid-template-columns: auto;
+    flex-direction: column;
+    gap: 20px;
   }
 }
 .section-client-reviews ul li {
   position: relative;
   height: 340px;
+  width: 370px;
 }
 @media screen and (max-width: 1024px) {
   .section-client-reviews ul li {
-    height: 100%;
+    height: auto;
   }
 }
 @media screen and (max-width: 900px) {
   .section-client-reviews ul li {
     height: 240px;
+    width: 100%;
   }
 }
 .section-client-reviews ul li .img-wrap {
