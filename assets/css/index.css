@@ -521,7 +521,7 @@ body {
 .blockquote {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
 }
 @media screen and (max-width: 768px) {
   .blockquote {
@@ -585,7 +585,7 @@ body {
   letter-spacing: 0.009rem;
 }
 .section-video .video-wrap {
-  margin-bottom: 52px;
+  margin-bottom: 76px;
   padding: 30px 70px 30px 30px;
   border-radius: 32px;
   aspect-ratio: 16/9;
@@ -670,27 +670,14 @@ body {
 .section-client-reviews hgroup h2 {
   margin-bottom: 20px;
 }
-.section-client-reviews .img-wrap img {
-  aspect-ratio: 1/1;
-}
 .section-client-reviews ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-@media screen and (max-width: 1024px) {
-  .section-client-reviews ul {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media screen and (max-width: 425px) {
-  .section-client-reviews ul {
-    grid-template-columns: 1fr;
-  }
-}
 .section-client-reviews ul li {
   position: relative;
-  height: 100%;
+  height: 340px;
 }
 .section-client-reviews ul li .img-wrap {
   position: absolute;
