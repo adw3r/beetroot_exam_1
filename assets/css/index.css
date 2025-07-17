@@ -151,8 +151,21 @@ img {
   text-transform: uppercase;
   color: #F1897B;
 }
+.btn.btn-big {
+  margin-block: 12px;
+  position: relative;
+  border: 1px solid rgba(241, 137, 123, 0.25);
+}
+.btn.btn-big span {
+  position: relative;
+  top: -2px;
+  left: -3px;
+}
 .btn:hover, .btn:focus {
   color: #E54F3A;
+}
+.btn:hover.btn-big, .btn:focus.btn-big {
+  border: 1px solid #E54F3A;
 }
 .btn:hover span::after, .btn:focus span::after {
   background-color: #E54F3A;
@@ -539,16 +552,6 @@ body {
 }
 .section-promises .content-wrap .mb-30 {
   margin-bottom: 10px;
-}
-.section-promises .content-wrap .btn {
-  margin-block: 12px;
-  position: relative;
-  border: 1px solid rgba(241, 137, 123, 0.25);
-}
-.section-promises .content-wrap .btn span {
-  position: relative;
-  top: -2px;
-  left: -3px;
 }
 .section-promises .content-wrap .item p {
   letter-spacing: 0.011rem;
