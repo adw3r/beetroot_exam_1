@@ -14,7 +14,26 @@ $border: 1px solid $primary-grey;
     margin: 0;
     box-sizing: border-box;
 }
+.container {
+    width: $container-width;
+    margin: 0 auto;
+}
 
+body {
+    font-size: 1rem;
+    color: $primary-dark-blue;
+    overflow-y: scroll;
+    font-family: Lato, sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    main {
+        flex-grow: 1;
+    }
+}
 ul, ol {
     list-style: none;
 }
@@ -32,7 +51,7 @@ input {
     width: 100%;
     color: $primary-dark-blue;
     opacity: 0.6;
-    font-family: "Playfair Display";
+    font-family: "Playfair Display", sans-serif;
     font-size: 1.125rem;
     font-style: italic;
     font-weight: 400;
@@ -71,25 +90,9 @@ img {
     object-fit: cover;
 }
 
-.container {
-    width: $container-width;
-    margin: 0 auto;
-}
-
-body {
-    font-size: 1rem;
-    color: $primary-dark-blue;
-    overflow-y: scroll;
-    font-family: Lato, sans-serif;
-}
-
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    main {
-        flex-grow: 1;
-    }
+.logo {
+    position: relative;
+    top: -1px
 }
 .btn {
     font-family: Lato,sans-serif;
@@ -104,12 +107,21 @@ body {
     text-transform: uppercase;
 
     color: $text_red;
+    span {
+        display: inline-block;
+        position: relative;
+        &::after {
+            width: 98%;
+            content: "";
+            top: 52%;
+            left: 10px;
+            position: absolute;
+            height: 14px;
+            opacity: 0.3;
+            background: var(--Secondary-Coral, #F1897B);
+        }
+    }
 }
-.logo {
-    position: relative;
-    top: -1px
-}
-
 @mixin h_tag($font_size, $line-height) {
     color: $primary-dark-blue;
     font-family: "Playfair Display", serif;
