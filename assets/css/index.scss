@@ -208,7 +208,7 @@ body {
 
   .container {
     width: calc($container-width - 200px);
-    @media screen  and (max-width: 768px) {
+    @media screen  and (max-width: 1024px) {
       width: 95%;
     }
   }
