@@ -682,6 +682,8 @@ body {
 .section-client-reviews ul li .img-wrap {
   position: absolute;
   z-index: -1;
+  height: 100%;
+  width: 100%;
 }
 .section-client-reviews ul li blockquote {
   height: 100%;

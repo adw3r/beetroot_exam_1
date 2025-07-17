@@ -309,12 +309,6 @@ body {
       margin-bottom: 20px;
     }
   }
-  //.img-wrap {
-  //  img {
-  //    aspect-ratio: 1/1;
-  //  }
-  //}
-
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -327,6 +321,8 @@ body {
       .img-wrap {
         position: absolute;
         z-index: -1;
+        height: 100%;
+        width: 100%;
 
       }
 
