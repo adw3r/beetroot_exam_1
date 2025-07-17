@@ -100,8 +100,12 @@ img {
 
 .logo {
   position: relative;
-  top: -1px
+  top: -1px;
+  transition: all .3s ease;
 
+  &:hover {
+    scale: 1.2;
+  }
 }
 
 .btn {
@@ -243,7 +247,9 @@ header {
   z-index: 100;
   margin-top: 30px;
   padding: 25px 0;
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0.00) 47.19%), rgba(255, 255, 255, 0.02);
+  background: linear-gradient(270deg,
+          rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.24) 24.1%,
+          rgba(255, 255, 255, 0.00) 47.19%), rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(4.5px);
 
   .container {

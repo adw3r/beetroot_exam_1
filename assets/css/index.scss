@@ -56,7 +56,6 @@ body {
         position: relative;
         width: 100px;
         height: 1px;
-        background: black;
         opacity: .3;
       }
 
@@ -287,6 +286,7 @@ body {
       .img-wrap {
         position: absolute;
         z-index: -1;
+
       }
 
       blockquote {
