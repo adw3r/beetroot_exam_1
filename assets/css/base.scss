@@ -109,24 +109,7 @@ body {
     position: relative;
     top: -1px
 }
-header {
-    margin-top: 30px;
-    padding: 25px 0;
-    background: linear-gradient(270deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0.00) 47.19%), rgba(255, 255, 255, 0.02);
-    backdrop-filter: blur(4.5px);
-    .container {
-        display: flex;
-        justify-content: space-between;
 
-        nav {
-            align-content: center;
-            ul {
-                display: flex;
-                gap: 28px
-            }
-        }
-    }
-}
 @mixin h_tag($font_size, $line-height) {
     color: $primary-dark-blue;
     font-family: "Playfair Display", serif;
@@ -178,4 +161,46 @@ cite {
 .img-wrap {
     left: 0;
     position: absolute;
+}
+header {
+    margin-top: 30px;
+    padding: 25px 0;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0.00) 47.19%), rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(4.5px);
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        nav {
+            align-content: center;
+            ul {
+                display: flex;
+                gap: 28px
+            }
+        }
+    }
+}
+.op-06 {
+    opacity: 0.6;
+}
+footer {
+    .made-by {
+        display: inline-block;
+        margin-right: 9px;
+    }
+    letter-spacing: 0.01rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: $border;
+    align-items: center;
+    height: 90px;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.625rem; /* 185.714% */
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 32px
+    }
 }

@@ -304,6 +304,9 @@ body {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    p {
+      letter-spacing: 0.02rem;
+    }
     hgroup {
       margin-top: 15px;
       width: 470px;
@@ -311,6 +314,5 @@ body {
         margin-bottom: 25px;
       }
     }
-
   }
 }
