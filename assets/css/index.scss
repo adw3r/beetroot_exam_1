@@ -291,18 +291,43 @@ body {
     margin-bottom: 50px;
     max-width: 400px;
   }
-  .cards {
+  ul.cards {
     display: grid;
     grid-template-columns: repeat(3, 370px);
     gap: 30px;
-    .card {
-      background: #000;
+    li.card {
       position: relative;
-      .img-wrap {
+      height: 340px;
+      div.img-wrap {
         position: absolute;
+        z-index: -1;
       }
-      blockquote {
-        color: white;
+      .review_quote {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: rgba(25, 28, 41, .6);
+        //background-color: black;
+        padding: 30px 40px;
+        color: #FFF;
+
+        p {
+          color: #FFF;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.625rem; /* 162.5% */
+        }
+
+        cite {
+          font-family: "Playfair Display";
+          font-size: 1.25rem;
+          font-style: italic;
+          font-weight: 400;
+          line-height: 1.25rem; /* 100% */
+          letter-spacing: 0.1rem;
+        }
       }
     }
   }
