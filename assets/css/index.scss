@@ -322,6 +322,10 @@ body {
 
 .section-client-reviews {
   margin-bottom: 100px;
+  @media screen and (max-width: 900px) {
+    margin-bottom: 65px;
+
+  }
 
   hgroup {
     margin-bottom: 50px;
@@ -383,31 +387,38 @@ body {
 .section-cta {
   border-top: $border;
   padding-top: 60px;
+  @media screen and (max-width: 768px) {
+    padding-top: 30px;
+  }
+  hgroup {
+    padding-top: 15px;
+    h2 {
+      margin-bottom: 25px;
+    }
+  }
 
   .contact-us {
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+
+    p {
+      letter-spacing: 0.02rem;
+    }
+
     @media screen and (max-width: 900px) {
+      margin-bottom: 60px;
+
       flex-direction: column;
       form {
         align-self: center;
-        width: 75%;
-      }
-
-      p {
-        letter-spacing: 0.02rem;
       }
 
       hgroup {
-        margin-top: 15px;
-        width: 470px;
-        @media screen and (max-width: 900px) {
-        }
+        margin-bottom: 50px;
+        align-self: center;
 
-        h2 {
-          margin-bottom: 25px;
-        }
+
       }
 
     }

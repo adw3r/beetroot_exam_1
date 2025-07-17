@@ -680,6 +680,11 @@ body {
 .section-client-reviews {
   margin-bottom: 100px;
 }
+@media screen and (max-width: 900px) {
+  .section-client-reviews {
+    margin-bottom: 65px;
+  }
+}
 .section-client-reviews hgroup {
   margin-bottom: 50px;
   width: 400px;
@@ -741,28 +746,36 @@ body {
   border-top: 1px solid #E4E4E4;
   padding-top: 60px;
 }
+@media screen and (max-width: 768px) {
+  .section-cta {
+    padding-top: 30px;
+  }
+}
+.section-cta hgroup {
+  padding-top: 15px;
+}
+.section-cta hgroup h2 {
+  margin-bottom: 25px;
+}
 .section-cta .contact-us {
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
 }
+.section-cta .contact-us p {
+  letter-spacing: 0.02rem;
+}
 @media screen and (max-width: 900px) {
   .section-cta .contact-us {
+    margin-bottom: 60px;
     flex-direction: column;
   }
   .section-cta .contact-us form {
     align-self: center;
-    width: 75%;
-  }
-  .section-cta .contact-us p {
-    letter-spacing: 0.02rem;
   }
   .section-cta .contact-us hgroup {
-    margin-top: 15px;
-    width: 470px;
-  }
-  .section-cta .contact-us hgroup h2 {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+    align-self: center;
   }
 }
 
