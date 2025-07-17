@@ -300,7 +300,43 @@ body {
   border-top: $border;
   padding-top: 60px;
   .contact-us {
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    hgroup {
+      margin-top: 15px;
+      width: 470px;
+      h2 {
+        margin-bottom: 25px;
+      }
+    }
+    form {
+      width: 470px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      align-items: start;
+      border: none;
+      label {
+        width: 100%;
+      }
+      input {
+        border: none;
+        border-bottom: $border;
+        height: 32px;
+        padding-bottom: 12px;
+        width: 100%;
+
+        color: $primary-dark-blue;
+        opacity: 0.6;
+        font-family: "Playfair Display";
+        font-size: 1.125rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.25rem; /* 111.111% */
+        letter-spacing: 0.09rem;
+      }
+
+    }
   }
 }
