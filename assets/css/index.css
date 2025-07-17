@@ -226,6 +226,16 @@ p {
   opacity: 0.8;
 }
 
+cite {
+  color: #FFF;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.25rem; /* 100% */
+  letter-spacing: 0.1rem;
+}
+
 [data-theme=dark] body {
   background-image: url("/assets/images/dark/bg.png");
 }
@@ -372,15 +382,6 @@ body {
   letter-spacing: 0.09rem;
   margin-bottom: 41px;
 }
-.blockquote .content cite {
-  color: #FFF;
-  font-family: "Playfair Display";
-  font-size: 1.25rem;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 1.25rem; /* 100% */
-  letter-spacing: 0.1rem;
-}
 
 .section-video {
   margin-bottom: 120px;
@@ -480,9 +481,20 @@ body {
 .section-client-reviews hgroup h2 {
   margin-bottom: 20px;
 }
-.section-client-reviews ul {
+.section-client-reviews .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1fr, 370px));
+  grid-template-columns: repeat(3, 370px);
+  gap: 30px;
+}
+.section-client-reviews .cards .card {
+  background: #000;
+  position: relative;
+}
+.section-client-reviews .cards .card .img-wrap {
+  position: absolute;
+}
+.section-client-reviews .cards .card blockquote {
+  color: white;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,6 +9,15 @@ p {
   line-height: 1.625rem; /* 144.444% */
   opacity: 0.8;
 }
+cite {
+  color: #FFF;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.25rem; /* 100% */
+  letter-spacing: 0.1rem;
+}
 
 [data-theme="dark"] {
   body {
@@ -172,15 +181,6 @@ body {
       letter-spacing: 0.09rem;
       margin-bottom: 41px;
     }
-    cite {
-      color: #FFF;
-      font-family: "Playfair Display";
-      font-size: 1.25rem;
-      font-style: italic;
-      font-weight: 400;
-      line-height: 1.25rem; /* 100% */
-      letter-spacing: 0.1rem;
-    }
   }
 }
 
@@ -283,6 +283,7 @@ body {
 }
 .section-client-reviews {
   margin-bottom: 100px;
+
   hgroup {
     h2 {
       margin-bottom: 20px;
@@ -290,8 +291,19 @@ body {
     margin-bottom: 50px;
     max-width: 400px;
   }
-  ul {
+  .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(1fr, 370px));
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+    .card {
+      background: #000;
+      position: relative;
+      .img-wrap {
+        position: absolute;
+      }
+      blockquote {
+        color: white;
+      }
+    }
   }
 }
