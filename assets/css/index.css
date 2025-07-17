@@ -631,11 +631,16 @@ body {
   display: flex;
   justify-content: end;
   position: relative;
-  flex-grow: 1;
 }
 @media screen and (max-width: 900px) {
   .section-promises {
     margin-bottom: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-promises .img-wrap {
+    width: 100%;
+    height: 100%;
   }
 }
 .section-promises .content-wrap {
@@ -649,6 +654,11 @@ body {
   column-gap: 100px;
   opacity: 0.9;
   background: #FFF;
+}
+@media screen and (max-width: 768px) {
+  .section-promises .content-wrap {
+    height: 100%;
+  }
 }
 .section-promises .content-wrap .mb-30 {
   margin-bottom: 10px;
