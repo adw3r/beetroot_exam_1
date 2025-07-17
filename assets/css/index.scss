@@ -304,6 +304,9 @@ body {
   hgroup {
     margin-bottom: 50px;
     width: 400px;
+    @media screen  and (max-width: 1024px) {
+      width: 60%;
+    }
 
     h2 {
       margin-bottom: 20px;
@@ -312,12 +315,15 @@ body {
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    @media screen  and (max-width: 900px) {
+        grid-template-columns: auto
+    }
     gap: 30px;
 
     li {
       position: relative;
       height: 340px;
-      @media screen  and (max-width: 1204px) {
+      @media screen  and (max-width: 1024px) {
         height: 100%;
       }
 
@@ -330,6 +336,9 @@ body {
 
       blockquote {
         height: 100%;
+        @media screen and (max-width: 1024px ){
+          gap: 50px
+        }
         display: flex;
         flex-direction: column;
         justify-content: space-between;
