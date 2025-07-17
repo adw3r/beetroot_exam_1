@@ -284,6 +284,24 @@ body {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     align-self: center;
+    @media screen  and (max-width: 768px) {
+      //display: flex;
+      flex-grow: 1;
+      .item {
+        display: flex;
+        flex-direction: column;
+      }
+      height: 100%;
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px;
+
+      grid-template-columns: 1fr;
+      row-gap: 0;
+      column-gap: 0;
+
+    }
+
     row-gap: 60px;
     column-gap: 100px;
 

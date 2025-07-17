@@ -660,6 +660,22 @@ body {
     height: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .section-promises .content-wrap {
+    flex-grow: 1;
+    height: 100%;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: 1fr;
+    row-gap: 0;
+    column-gap: 0;
+  }
+  .section-promises .content-wrap .item {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .section-promises .content-wrap .mb-30 {
   margin-bottom: 10px;
 }
