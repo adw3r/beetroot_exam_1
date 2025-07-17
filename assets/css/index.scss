@@ -322,3 +322,10 @@ body {
     }
   }
 }
+.section-cta {
+  padding-top: 60px;
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+  }
+}
