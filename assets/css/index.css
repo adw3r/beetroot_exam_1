@@ -521,6 +521,11 @@ body {
   position: relative;
   margin-bottom: 120px;
 }
+@media screen and (max-width: 768px) {
+  .blockquote {
+    margin-bottom: 90px;
+  }
+}
 .blockquote svg {
   position: absolute;
   width: 102px;
@@ -557,11 +562,21 @@ body {
 .section-video {
   margin-bottom: 120px;
 }
+@media screen and (max-width: 768px) {
+  .section-video {
+    margin-bottom: 90px;
+  }
+}
 .section-video h2 {
   margin-bottom: 25px;
 }
 .section-video .container {
   width: calc(min(95%, 1170px) - 200px);
+}
+@media screen and (max-width: 768px) {
+  .section-video .container {
+    width: 95%;
+  }
 }
 .section-video p {
   width: calc(100% - 100px);

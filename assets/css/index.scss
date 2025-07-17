@@ -133,10 +133,6 @@ body {
     margin-bottom: 90px;
   }
 
-  //.pr-60 {
-  //  padding-right: 60px;
-  //}
-
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -162,6 +158,9 @@ body {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   position: relative;
   margin-bottom: 120px;
+  @media screen  and (max-width: 768px) {
+    margin-bottom: 90px;
+  }
   svg {
     position: absolute;
     width: 102px;
@@ -199,6 +198,9 @@ body {
 
 .section-video {
   margin-bottom: 120px;
+  @media screen  and (max-width: 768px) {
+    margin-bottom: 90px;
+  }
 
   h2 {
     margin-bottom: 25px;
@@ -206,6 +208,9 @@ body {
 
   .container {
     width: calc($container-width - 200px);
+    @media screen  and (max-width: 768px) {
+      width: 95%;
+    }
   }
 
   p {
