@@ -197,9 +197,6 @@ body {
 }
 
 .section-info {
-  background-image: url("assets/images/dark/bg-gradient.svg");
-  background-size: cover;
-  background-position: -10px;
   margin-bottom: 120px;
   height: 670px;
   display: flex;
@@ -377,9 +374,26 @@ body {
   left: 57px;
 }
 
-.section-promises .text-wrap {
+.section-promises {
+  margin-bottom: 120px;
+  height: 670px;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.section-promises .img-wrap {
+  left: 0;
+  position: absolute;
+}
+.section-promises .content-wrap {
+  padding: 75px 70px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-columns: 1fr 1fr;
+  opacity: 0.9;
+  background: #FFF;
+  max-width: 770px;
+  align-self: center;
+  gap: 100px;
 }
 
 /*# sourceMappingURL=index.css.map */

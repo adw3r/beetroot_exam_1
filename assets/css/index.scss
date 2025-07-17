@@ -56,9 +56,6 @@ body {
 }
 
 .section-info {
-  background-image: url("assets/images/dark/bg-gradient.svg");
-  background-size: cover;
-  background-position: -10px;
   margin-bottom: 120px;
   height: 670px;
   display: flex;
@@ -130,7 +127,6 @@ body {
       }
 
     }
-
     .content {
       margin-left: -15px;
       letter-spacing: 0.009rem;
@@ -253,11 +249,27 @@ body {
 }
 
 .section-promises {
-  .img-wrap {
+  margin-bottom: 120px;
+  height: 670px;
+  display: flex;
+  //flex-direction: row;
+  justify-content: end;
+  position: relative;
 
+  .img-wrap {
+    left: 0;
+    position: absolute;
   }
-  .text-wrap {
+
+  .content-wrap {
+    padding: 75px 70px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    opacity: 0.9;
+    background: #FFF;
+    max-width: 770px;
+    align-self: center;
+
+    gap: 100px
   }
 }
