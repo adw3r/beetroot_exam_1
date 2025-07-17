@@ -530,7 +530,8 @@ body {
 @media screen and (max-width: 1024px) {
   .blockquote svg {
     left: 30px;
-    top: 20px;
+    top: 40px;
+    scale: 0.9;
   }
 }
 @media screen and (max-width: 768px) {
@@ -544,7 +545,7 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .blockquote .content {
-    padding: 50px;
+    padding: 70px;
   }
 }
 .blockquote .content p {

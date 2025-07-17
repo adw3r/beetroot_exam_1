@@ -170,7 +170,8 @@ body {
     left: 100px;
     @media screen  and (max-width: 1024px) {
       left: 30px;
-      top: 20px;
+      top: 40px;
+      scale: 0.9;
     }
     @media screen  and (max-width: 768px) {
       left: 50px;
@@ -183,7 +184,7 @@ body {
 
     padding: 100px 300px 100px 160px;
     @media screen  and (max-width: 1024px) {
-      padding: 50px;
+      padding: 70px;
     }
 
     p {
