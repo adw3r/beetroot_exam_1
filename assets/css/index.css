@@ -750,19 +750,20 @@ body {
   .section-cta .contact-us {
     flex-direction: column;
   }
-}
-.section-cta .contact-us p {
-  letter-spacing: 0.02rem;
-}
-.section-cta .contact-us hgroup {
-  margin-top: 15px;
-  width: 470px;
-}
-.section-cta .contact-us hgroup h2 {
-  margin-bottom: 25px;
-}
-.section-cta .contact-us form {
-  align-self: center;
+  .section-cta .contact-us form {
+    align-self: center;
+    width: 75%;
+  }
+  .section-cta .contact-us p {
+    letter-spacing: 0.02rem;
+  }
+  .section-cta .contact-us hgroup {
+    margin-top: 15px;
+    width: 470px;
+  }
+  .section-cta .contact-us hgroup h2 {
+    margin-bottom: 25px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

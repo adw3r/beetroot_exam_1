@@ -13,7 +13,7 @@ body {
 
 .hero {
   padding: 150px 0;
-  @media screen  and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 110px 0;
   }
 
@@ -39,7 +39,7 @@ body {
   flex-direction: row;
   justify-content: end;
   position: relative;
-  @media screen  and (max-width: 809px) {
+  @media screen and (max-width: 809px) {
     .img-wrap {
       width: 100%;
       height: 100%;
@@ -48,7 +48,7 @@ body {
 
   .text-wrap {
     padding: 45px 0;
-    @media screen  and (max-width: 809px) {
+    @media screen and (max-width: 809px) {
       padding: 90px 0;
     }
     display: grid;
@@ -129,7 +129,7 @@ body {
   }
 
   margin-bottom: 127px;
-  @media screen  and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     margin-bottom: 90px;
   }
 
@@ -158,9 +158,10 @@ body {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   position: relative;
   margin-bottom: 150px;
-  @media screen  and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 90px;
   }
+
   svg {
     position: absolute;
     width: 102px;
@@ -168,7 +169,7 @@ body {
 
     top: 70px;
     left: 100px;
-    @media screen  and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       left: 30px;
       top: 40px;
       scale: 0.9;
@@ -178,7 +179,7 @@ body {
   .content {
 
     padding: 100px 300px 100px 160px;
-    @media screen  and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       padding: 70px;
     }
 
@@ -198,7 +199,7 @@ body {
 
 .section-video {
   margin-bottom: 120px;
-  @media screen  and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     margin-bottom: 70px;
   }
 
@@ -208,7 +209,7 @@ body {
 
   .container {
     width: calc($container-width - 200px);
-    @media screen  and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       width: 95%;
     }
   }
@@ -221,13 +222,14 @@ body {
   .video-wrap {
     margin-bottom: 76px;
     padding: 30px 70px 30px 30px;
-    @media screen  and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
       padding-right: 50px;
     }
     border-radius: 32px;
     aspect-ratio: 16/9;
     border: $border;
     position: relative;
+
     .inner-video-wrap {
       background-image: url("/assets/images/screensaver-video.png");
       background-repeat: no-repeat;
@@ -235,20 +237,24 @@ body {
       height: 100%;
       border: $border;
     }
+
     .play-button {
       top: 50%;
     }
+
     .circle {
       position: absolute;
       top: calc(50% - 17px);
+
       &-sm {
         top: calc(50% - 7px);
         left: 7px;
       }
+
       &-xl {
         @media screen and (max-width: 768px) {
           left: 94%;
-          
+
         }
         top: calc(50% - 17px);
         left: 95%;
@@ -259,14 +265,14 @@ body {
 
 .section-promises {
   margin-bottom: 120px;
-  @media screen  and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     margin-bottom: 90px;
   }
   height: 540px;
   display: flex;
   justify-content: end;
   position: relative;
-  @media screen  and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .img-wrap {
       width: 100%;
       height: 100%;
@@ -281,7 +287,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     align-self: center;
-    @media screen  and (max-width: 900px) {
+    @media screen and (max-width: 900px) {
       height: 80%;
       gap: 5px;
       padding: 20px;
@@ -320,7 +326,7 @@ body {
   hgroup {
     margin-bottom: 50px;
     width: 400px;
-    @media screen  and (max-width: 1024px) {
+    @media screen and (max-width: 1024px) {
       width: 75%;
     }
 
@@ -328,18 +334,19 @@ body {
       margin-bottom: 20px;
     }
   }
+
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    @media screen  and (max-width: 900px) {
-        grid-template-columns: auto
+    @media screen and (max-width: 900px) {
+      grid-template-columns: auto
     }
     gap: 30px;
 
     li {
       position: relative;
       height: 340px;
-      @media screen  and (max-width: 1024px) {
+      @media screen and (max-width: 1024px) {
         height: 100%;
       }
 
@@ -352,7 +359,7 @@ body {
 
       blockquote {
         height: 100%;
-        @media screen and (max-width: 1024px ){
+        @media screen and (max-width: 1024px) {
           gap: 50px
         }
         display: flex;
@@ -383,23 +390,26 @@ body {
     justify-content: space-between;
     @media screen and (max-width: 900px) {
       flex-direction: column;
-    }
-
-    p {
-      letter-spacing: 0.02rem;
-    }
-
-    hgroup {
-      margin-top: 15px;
-      width: 470px;
-      @media screen  and (max-width: 900px) {}
-
-      h2 {
-        margin-bottom: 25px;
+      form {
+        align-self: center;
+        width: 75%;
       }
-    }
-    form {
-      align-self: center;
+
+      p {
+        letter-spacing: 0.02rem;
+      }
+
+      hgroup {
+        margin-top: 15px;
+        width: 470px;
+        @media screen and (max-width: 900px) {
+        }
+
+        h2 {
+          margin-bottom: 25px;
+        }
+      }
+
     }
   }
 }
