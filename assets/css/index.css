@@ -309,6 +309,11 @@ header {
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.24) 24.1%, rgba(255, 255, 255, 0) 47.19%), rgba(255, 255, 255, 0.02);
   backdrop-filter: blur(4.5px);
 }
+@media screen and (max-width: 768px) {
+  header {
+    margin-top: 0;
+  }
+}
 header .container {
   display: flex;
   justify-content: space-between;
@@ -381,6 +386,11 @@ body {
 .hero {
   padding: 150px 0;
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 110px 0;
+  }
+}
 .hero .first-screen {
   max-width: 530px;
 }
@@ -400,6 +410,12 @@ body {
   justify-content: end;
   position: relative;
 }
+@media screen and (max-width: 768px) {
+  .section-info .img-wrap {
+    width: 100%;
+    height: 100%;
+  }
+}
 .section-info .text-wrap {
   padding: 45px 0;
   display: grid;
@@ -408,6 +424,11 @@ body {
   background: #FFF;
   max-width: 770px;
   align-self: center;
+}
+@media screen and (max-width: 768px) {
+  .section-info .text-wrap {
+    padding: 90px 0;
+  }
 }
 .section-info .text-wrap .stats-list {
   margin-right: 12px;
@@ -528,8 +549,8 @@ body {
 .section-video .video-wrap {
   margin-bottom: 52px;
   padding: 30px 70px 30px 30px;
-  height: 600px;
   border-radius: 32px;
+  aspect-ratio: 16/9;
   border: 1px solid #E4E4E4;
   position: relative;
 }
@@ -596,14 +617,27 @@ body {
 .section-client-reviews hgroup h2 {
   margin-bottom: 20px;
 }
+.section-client-reviews .img-wrap img {
+  aspect-ratio: 1/1;
+}
 .section-client-reviews ul {
   display: grid;
-  grid-template-columns: repeat(3, 370px);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
+}
+@media screen and (max-width: 1024px) {
+  .section-client-reviews ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-client-reviews ul {
+    grid-template-columns: 1fr;
+  }
 }
 .section-client-reviews ul li {
   position: relative;
-  height: 340px;
+  height: 100%;
 }
 .section-client-reviews ul li .img-wrap {
   position: absolute;
