@@ -617,6 +617,11 @@ body {
   top: calc(50% - 17px);
   left: 95%;
 }
+@media screen and (max-width: 768px) {
+  .section-video .video-wrap .circle-xl {
+    left: 94%;
+  }
+}
 
 .section-promises {
   margin-bottom: 120px;

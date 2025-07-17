@@ -246,8 +246,11 @@ body {
         left: 7px;
       }
       &-xl {
+        @media screen and (max-width: 768px) {
+          left: 94%;
+          
+        }
         top: calc(50% - 17px);
-
         left: 95%;
       }
     }
