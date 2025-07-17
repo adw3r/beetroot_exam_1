@@ -525,7 +525,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .blockquote {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 }
 .blockquote svg {
@@ -594,6 +594,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-video .video-wrap {
+    margin-bottom: 40px;
     padding-right: 50px;
   }
 }
@@ -634,7 +635,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .section-promises {
-    margin-bottom: 90px;
+    margin-bottom: 70px;
   }
 }
 @media screen and (max-width: 768px) {
