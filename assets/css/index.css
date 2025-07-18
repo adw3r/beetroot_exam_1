@@ -462,6 +462,9 @@ header {
   }
 }
 @media screen and (max-width: 670px) {
+  header {
+    padding: 15px 10px;
+  }
   header nav {
     display: none;
   }
@@ -548,6 +551,13 @@ iframe {
 body {
   background: url("/assets/images/light/bg.jpg") no-repeat top center/contain local;
 }
+@media screen and (max-width: 629px) {
+  body {
+    background-image: url("/assets/images/light/bg.jpg");
+    background-size: 100dvw 100dvh;
+    background-position: center center/contain local;
+  }
+}
 
 .hero {
   padding: 150px 0;
@@ -559,6 +569,12 @@ body {
 }
 .hero .first-screen {
   max-width: 530px;
+}
+@media screen and (max-width: 768px) {
+  .hero .first-screen h1 {
+    font-size: 2rem;
+    max-width: 70%;
+  }
 }
 .hero .first-screen h1 {
   margin-bottom: 20px;
