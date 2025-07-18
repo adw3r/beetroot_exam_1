@@ -244,7 +244,6 @@ cite {
 .hamburger {
   display: none;
   @media screen and (max-width: 659px){
-
   }
 }
 header {
@@ -282,16 +281,20 @@ header {
         li {
           position: relative;
           transition: all 0.2s ease;
+          &::after {
+            transition: all 0.2s ease;
+            content: "";
+            width: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+            height: 3px;
+            position: absolute;
+            background-color: $text_red
+          }
           &:hover, &:focus {
             &::after {
-              content: "";
               width: 35px;
-              left: 50%;
-              transform: translateX(-50%);
-              display: block;
-              height: 3px;
-              position: absolute;
-              background-color: $text_red
             }
           }
           &:active {
