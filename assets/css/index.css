@@ -1074,12 +1074,17 @@ body {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 12px;
   width: 100%;
   height: 100%;
   border: 1px solid #E4E4E4;
 }
 .section-video .video-wrap .play-button {
   top: 50%;
+}
+.section-video .video-wrap .play-button svg {
+  height: 120px;
+  width: 120px;
 }
 @media screen and (max-width: 768px) {
   .section-video .video-wrap .play-button {
@@ -1103,9 +1108,17 @@ body {
   top: calc(50% - 7px);
   left: 7px;
 }
+.section-video .video-wrap .circle-sm svg {
+  height: 13px;
+  width: 13px;
+}
 .section-video .video-wrap .circle-xl {
   top: calc(50% - 17px);
   left: 95%;
+}
+.section-video .video-wrap .circle-xl svg {
+  height: 13px;
+  width: 13px;
 }
 @media screen and (max-width: 768px) {
   .section-video .video-wrap .circle-xl {

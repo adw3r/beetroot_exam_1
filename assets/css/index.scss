@@ -341,12 +341,17 @@ body {
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
       background-size: cover;
       background-repeat: no-repeat;
+      border-radius: 12px;
       width: 100%;
       height: 100%;
       border: $border;
     }
 
     .play-button {
+      svg {
+        height: 120px;
+        width: 120px;
+      }
       top: 50%;
       @media screen and (max-width: 768px) {
         scale: .5;
@@ -365,11 +370,19 @@ body {
       top: calc(50% - 17px);
 
       &-sm {
+        svg {
+          height: 13px;
+          width: 13px;
+        }
         top: calc(50% - 7px);
         left: 7px;
       }
 
       &-xl {
+        svg {
+          height: 13px;
+          width: 13px;
+        }
         @media screen and (max-width: 768px) {
           left: 93.3%;
         }
