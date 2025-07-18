@@ -24,3 +24,13 @@ const toggleMenu = () => {
     })
 }
 document.toggleMenu = toggleMenu;
+
+const toggle = document.getElementById('theme_switcher');
+
+toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+});
