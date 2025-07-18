@@ -1009,6 +1009,12 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 900px) {
+  .section-client-reviews ul li {
+    height: 240px;
+    width: 100%;
+  }
+}
 .section-client-reviews ul li .img-wrap {
   position: absolute;
   z-index: -1;
