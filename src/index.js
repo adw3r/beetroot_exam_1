@@ -6,7 +6,7 @@ const lazyLoadInstance = new LazyLoad({
 lazyLoadInstance.update()
 
 const displayVideo = (btn) => {
-    const frame= document.querySelector('iframe')
+    const frame = document.querySelector('iframe')
 
     frame.style.visibility = "visible";
     frame.style.opacity = "1";
@@ -15,16 +15,14 @@ const displayVideo = (btn) => {
 document.displayVideo = displayVideo
 
 const toggleMenu = () => {
-    document.querySelectorAll('.js-hamburger').forEach(
-        function (el) {
-            el.classList.toggle('is-active');
-            let mobile_menu = document.querySelector('.mobile-menu');
-            if (mobile_menu.classList.contains('open')) {
-                mobile_menu.classList.remove('open');
-            } else {
-                mobile_menu.classList.add('open');
-            }
+    document.querySelectorAll('.js-hamburger').forEach(function (el) {
+        el.classList.toggle('is-active');
+        let mobile_menu = document.querySelector('.mobile-menu');
+        if (mobile_menu.classList.contains('open')) {
+            mobile_menu.classList.remove('open');
+        } else {
+            mobile_menu.classList.add('open');
         }
-    )
+    })
 }
 document.toggleMenu = toggleMenu;
