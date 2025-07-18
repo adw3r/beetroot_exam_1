@@ -251,10 +251,12 @@
                 </hgroup>
                 <form action="/contact-us" method="POST">
                     <label>
-                        <input name="name" placeholder="Your name" required type="text">
+                        <input name="name" placeholder="Your name" required type="text" >
                     </label>
                     <label>
-                        <input name="email" placeholder="Email" required type="email">
+                        <input name="email"
+                               placeholder="Email" required
+                               type="email" pattern='^[a-zA-Z0-9._%+-]+@example\.com$'>
                     </label>
                     <label>
                         <input name="description" placeholder="Tell more" required type="text">
