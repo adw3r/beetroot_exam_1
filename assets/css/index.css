@@ -733,6 +733,7 @@ body {
 @media screen and (max-width: 425px) {
   .blockquote {
     background-size: cover;
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -787,6 +788,13 @@ body {
 @media screen and (max-width: 425px) {
   .blockquote .content p {
     margin-bottom: 15px;
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .blockquote .content cite {
+    margin-bottom: 15px;
+    font-size: 1rem;
   }
 }
 

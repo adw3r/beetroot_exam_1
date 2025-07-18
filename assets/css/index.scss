@@ -188,6 +188,7 @@ body {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   @media screen and (max-width: 425px){
     background-size: cover;
+    margin-bottom: 30px;
   }
   position: relative;
   margin-bottom: 150px;
@@ -235,8 +236,15 @@ body {
       letter-spacing: 0.09rem;
       @media screen and (max-width: 425px) {
         margin-bottom: 15px;
+        font-size: 1.75rem;
       }
       margin-bottom: 41px;
+    }
+    cite {
+      @media screen and (max-width: 425px) {
+        margin-bottom: 15px;
+        font-size: 1rem;
+      }
     }
   }
 }
