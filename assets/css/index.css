@@ -222,9 +222,10 @@ form {
   align-items: start;
   border: none;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
   form {
     width: 80%;
+    max-width: 450px;
   }
 }
 form label {
@@ -492,7 +493,7 @@ footer {
   align-items: center;
   letter-spacing: 0.01rem;
   border-top: 1px solid #E4E4E4;
-  height: 90px;
+  padding: 31px 0;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 300;

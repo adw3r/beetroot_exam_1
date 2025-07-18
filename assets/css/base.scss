@@ -67,8 +67,9 @@ input {
 
 form {
   width: 470px;
-  @media screen and (max-width: 500px){
+  @media screen and (max-width: 900px){
     width: 80%;
+    max-width: 450px;
   }
   display: flex;
   flex-direction: column;
@@ -330,7 +331,8 @@ footer {
 
   letter-spacing: 0.01rem;
   border-top: $border;
-  height: 90px;
+
+  padding: 31px 0;
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 300;
