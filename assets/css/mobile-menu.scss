@@ -39,13 +39,13 @@
     position: fixed;
     left: -300px;
     top: 0;
-    z-index: 33;
+    z-index: 101;
     background-color: white;
     width: 300px;
     @media screen and (max-width: 570px) {
-      width: 200px;
+      width: 250px;
     }
-    height: 100vh;
+    height: 100dvh;
     padding: 20px;
     display: flex;
     flex-direction: column;
