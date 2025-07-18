@@ -576,7 +576,12 @@ body {
   justify-content: end;
   position: relative;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .section-info {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 660px) {
   .section-info {
     height: 100%;
   }
@@ -603,7 +608,7 @@ body {
 }
 @media screen and (max-width: 660px) {
   .section-info .text-wrap {
-    padding: 0;
+    padding: 30px 0;
     gap: 25px;
     grid-template-columns: 1fr;
   }
@@ -664,10 +669,16 @@ body {
 @media screen and (max-width: 660px) {
   .section-info .text-wrap .content {
     margin: 0;
+    padding: 0 50px;
   }
 }
 .section-info .text-wrap .content p {
   margin-bottom: 50px;
+}
+@media screen and (max-width: 660px) {
+  .section-info .text-wrap .content p {
+    margin-bottom: 15px;
+  }
 }
 .section-info .text-wrap .content p:first-child {
   margin-bottom: 30px;
@@ -682,6 +693,11 @@ body {
 @media screen and (max-width: 900px) {
   .section-benefits {
     margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-benefits {
+    margin-bottom: 30px;
   }
 }
 .section-benefits ul {
@@ -702,7 +718,7 @@ body {
 }
 @media screen and (max-width: 425px) {
   .section-benefits ul li {
-    padding: 0;
+    padding: 40px 0;
   }
 }
 .section-benefits ul li h2 {
@@ -738,7 +754,7 @@ body {
     scale: 0.9;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .blockquote svg {
     left: 15px;
     top: 20px;
@@ -767,6 +783,11 @@ body {
   line-height: 2.875rem; /* 143.75% */
   letter-spacing: 0.09rem;
   margin-bottom: 41px;
+}
+@media screen and (max-width: 425px) {
+  .blockquote .content p {
+    margin-bottom: 15px;
+  }
 }
 
 .section-video {

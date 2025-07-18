@@ -34,7 +34,10 @@ body {
 
 .section-info {
   margin-bottom: 120px;
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
+    margin-bottom: 70px;
+  }
+  @media screen and (max-width: 660px) {
     height: 100%;
   }
   height: 670px;
@@ -48,8 +51,6 @@ body {
       height: 100%;
     }
   }
-  @media screen and (max-width: 425px) {
-  }
 
 
   .text-wrap {
@@ -58,7 +59,7 @@ body {
       padding: 90px 0;
     }
     @media screen and (max-width: 660px) {
-      padding: 0;
+      padding: 30px 0;
       gap: 25px;
       grid-template-columns: 1fr;
     }
@@ -126,12 +127,16 @@ body {
     .content {
       @media screen and (max-width: 660px){
         margin: 0;
-        
+        padding: 0 50px;
       }
       margin-left: -15px;
       letter-spacing: 0.009rem;
 
       p {
+        @media screen and (max-width: 660px){
+          margin-bottom: 15px;
+
+        }
         margin-bottom: 50px;
 
         &:first-child {
@@ -151,6 +156,9 @@ body {
   @media screen and (max-width: 900px) {
     margin-bottom: 70px;
   }
+  @media screen and (max-width: 425px) {
+    margin-bottom: 30px;
+  }
 
   ul {
     display: grid;
@@ -166,7 +174,7 @@ body {
       border-top: 1px solid rgba(0, 0, 0, 0.15);
       padding: 51px 54px 18px 35px;
       @media screen and (max-width: 425px) {
-        padding: 0;
+        padding: 40px 0;
       }
 
       h2 {
@@ -179,7 +187,6 @@ body {
 .blockquote {
   background: url("/assets/images/quote-background.jpg") center center no-repeat;
   @media screen and (max-width: 425px){
-
     background-size: cover;
   }
   position: relative;
@@ -200,7 +207,7 @@ body {
       top: 40px;
       scale: 0.9;
     }
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 900px) {
       left: 15px;
       top: 20px;
       scale: 0.9;
@@ -215,8 +222,6 @@ body {
     }
     @media screen and (max-width: 425px) {
       padding: 75px 35px;
-      //height: auto;
-
     }
 
     p {
@@ -228,6 +233,9 @@ body {
       font-weight: 400;
       line-height: 2.875rem; /* 143.75% */
       letter-spacing: 0.09rem;
+      @media screen and (max-width: 425px) {
+        margin-bottom: 15px;
+      }
       margin-bottom: 41px;
     }
   }
