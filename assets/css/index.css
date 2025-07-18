@@ -676,6 +676,11 @@ body {
   position: relative;
   margin-bottom: 150px;
 }
+@media screen and (max-width: 425px) {
+  .blockquote {
+    background-size: cover;
+  }
+}
 @media screen and (max-width: 768px) {
   .blockquote {
     margin-bottom: 70px;
@@ -695,12 +700,24 @@ body {
     scale: 0.9;
   }
 }
+@media screen and (max-width: 1024px) {
+  .blockquote svg {
+    left: 15px;
+    top: 20px;
+    scale: 0.9;
+  }
+}
 .blockquote .content {
   padding: 100px 300px 100px 160px;
 }
 @media screen and (max-width: 1024px) {
   .blockquote .content {
     padding: 70px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .blockquote .content {
+    padding: 75px 35px;
   }
 }
 .blockquote .content p {
