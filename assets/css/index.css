@@ -672,6 +672,12 @@ body {
     padding: 0 50px;
   }
 }
+@media screen and (max-width: 425px) {
+  .section-info .text-wrap .content {
+    margin: 0;
+    padding: 0 10px;
+  }
+}
 .section-info .text-wrap .content p {
   margin-bottom: 50px;
 }

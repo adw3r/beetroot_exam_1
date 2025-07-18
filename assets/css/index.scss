@@ -129,6 +129,10 @@ body {
         margin: 0;
         padding: 0 50px;
       }
+      @media screen and (max-width: 425px){
+        margin: 0;
+        padding: 0 10px;
+      }
       margin-left: -15px;
       letter-spacing: 0.009rem;
 
