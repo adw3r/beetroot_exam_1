@@ -865,6 +865,12 @@ body {
     padding-right: 50px;
   }
 }
+@media screen and (max-width: 425px) {
+  .section-video .video-wrap {
+    margin-bottom: 10px;
+    padding: 15px 40px 15px 20px;
+  }
+}
 .section-video .video-wrap .inner-video-wrap {
   background-image: url("/assets/images/screensaver-video.png");
   background-repeat: no-repeat;
