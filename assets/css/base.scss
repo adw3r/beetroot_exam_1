@@ -43,6 +43,12 @@ body {
 }
 
 [data-theme="dark"] {
+  .mobile-menu {
+    nav {
+      background-color: #161926;
+    }
+    color: white;
+  }
   a {
     color: white;
     &:after {

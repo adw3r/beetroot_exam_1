@@ -8,9 +8,9 @@
     display: inline-block;
   }
 }
-
 .mobile-menu {
   transition: all .2s ease;
+
 
   &.open {
     .overlay {
@@ -39,7 +39,7 @@
     position: fixed;
     left: -300px;
     top: 0;
-    z-index: 101;
+    z-index: 100000;
     background-color: white;
     width: 300px;
     @media screen and (max-width: 570px) {
