@@ -28,6 +28,8 @@ $i-color: #689FF2;
 }
 
 body {
+  background-image: url("/assets/images/light/bg.jpg");
+  background-color: #FFFFFF;
   transition: all .2s ease;
   font-size: 1rem;
   color: $primary-dark-blue;
@@ -93,17 +95,6 @@ body {
         color: #fff; /* Optional: ensures text is visible on dark bg */
   }
 }
-
-[data-theme="light"] {
-  body {
-    background-image: url("/assets/images/light/bg.jpg");
-    background-color: #FFFFFF;
-  }
-  .section-info.container > div.text-wrap {
-    background-color: #FFF;
-  }
-}
-
 
 .page-wrapper {
   display: flex;

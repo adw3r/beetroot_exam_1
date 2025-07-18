@@ -356,6 +356,8 @@
 }
 
 body {
+  background-image: url("/assets/images/light/bg.jpg");
+  background-color: #FFFFFF;
   transition: all 0.2s ease;
   font-size: 1rem;
   color: #262A3F;
@@ -416,14 +418,6 @@ body {
 }
 [data-theme=dark] form {
   color: #fff; /* Optional: ensures text is visible on dark bg */
-}
-
-[data-theme=light] body {
-  background-image: url("/assets/images/light/bg.jpg");
-  background-color: #FFFFFF;
-}
-[data-theme=light] .section-info.container > div.text-wrap {
-  background-color: #FFF;
 }
 
 .page-wrapper {
