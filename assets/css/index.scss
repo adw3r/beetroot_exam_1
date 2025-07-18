@@ -8,10 +8,7 @@
 
 body {
   background: url("/assets/images/light/bg.jpg") no-repeat top center/contain local;
-  @media screen and (max-width: 629px){
-    background-size: 100dvw 100dvh;
-    background-position: center center/contain local;
-  }
+  background-size: 100dvw 100dvh;
 }
 
 
