@@ -1011,7 +1011,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .section-client-reviews ul li {
-    height: 240px;
+    height: auto;
     width: 100%;
   }
 }
