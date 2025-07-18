@@ -1,6 +1,7 @@
 @use "fonts.css";
 @use "hamburger";
 @use "mobile-menu";
+@use "animate.min.css";
 
 $container-width: min(95%, 1170px);
 $primary-dark-blue: #262A3F;
