@@ -762,6 +762,13 @@ body {
     scale: 0.9;
   }
 }
+@media screen and (max-width: 425px) {
+  .blockquote svg {
+    left: 5px;
+    top: 5px;
+    scale: 0.7;
+  }
+}
 .blockquote .content {
   padding: 100px 300px 100px 160px;
 }
@@ -773,6 +780,11 @@ body {
 @media screen and (max-width: 425px) {
   .blockquote .content {
     padding: 75px 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .blockquote .content {
+    padding: 30px;
   }
 }
 .blockquote .content p {
@@ -791,10 +803,22 @@ body {
     font-size: 1.75rem;
   }
 }
+@media screen and (max-width: 320px) {
+  .blockquote .content p {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    line-height: 1.875rem;
+  }
+}
 @media screen and (max-width: 425px) {
   .blockquote .content cite {
     margin-bottom: 15px;
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .blockquote .content cite {
+    font-size: 0.75rem;
   }
 }
 

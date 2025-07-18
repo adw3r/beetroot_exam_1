@@ -213,6 +213,11 @@ body {
       top: 20px;
       scale: 0.9;
     }
+    @media screen and (max-width: 425px) {
+      left: 5px;
+      top: 5px;
+      scale: 0.7;
+    }
   }
 
   .content {
@@ -223,6 +228,9 @@ body {
     }
     @media screen and (max-width: 425px) {
       padding: 75px 35px;
+    }
+    @media screen and (max-width: 320px) {
+      padding: 30px;
     }
 
     p {
@@ -238,12 +246,20 @@ body {
         margin-bottom: 15px;
         font-size: 1.75rem;
       }
+      @media screen and (max-width: 320px) {
+        margin-bottom: 15px;
+        font-size: 1.3rem;
+        line-height: 1.875rem;
+      }
       margin-bottom: 41px;
     }
     cite {
       @media screen and (max-width: 425px) {
         margin-bottom: 15px;
         font-size: 1rem;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 0.75rem;
       }
     }
   }
