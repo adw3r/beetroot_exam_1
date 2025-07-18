@@ -1071,7 +1071,8 @@ body {
   }
 }
 .section-video .video-wrap .inner-video-wrap {
-  background-image: url("/assets/images/screensaver-video.png");
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -1079,6 +1080,20 @@ body {
 }
 .section-video .video-wrap .play-button {
   top: 50%;
+}
+@media screen and (max-width: 768px) {
+  .section-video .video-wrap .play-button {
+    scale: 0.5;
+    top: 43%;
+    left: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-video .video-wrap .play-button {
+    scale: 0.5;
+    top: 43%;
+    left: 45%;
+  }
 }
 .section-video .video-wrap .circle {
   position: absolute;
@@ -1094,12 +1109,13 @@ body {
 }
 @media screen and (max-width: 768px) {
   .section-video .video-wrap .circle-xl {
-    left: 94%;
+    left: 93.3%;
   }
 }
 @media screen and (max-width: 425px) {
   .section-video .video-wrap .circle-xl {
-    left: 91%;
+    left: 78%;
+    top: 33%;
     scale: 0.7;
   }
 }

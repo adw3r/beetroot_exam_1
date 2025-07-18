@@ -338,7 +338,8 @@ body {
     position: relative;
 
     .inner-video-wrap {
-      background-image: url("/assets/images/screensaver-video.png");
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+      background-size: cover;
       background-repeat: no-repeat;
       width: 100%;
       height: 100%;
@@ -347,6 +348,16 @@ body {
 
     .play-button {
       top: 50%;
+      @media screen and (max-width: 768px) {
+        scale: .5;
+        top: 43%;
+        left: 45%;
+      }
+      @media screen and (max-width: 768px) {
+        scale: .5;
+        top: 43%;
+        left: 45%;
+      }
     }
 
     .circle {
@@ -360,10 +371,11 @@ body {
 
       &-xl {
         @media screen and (max-width: 768px) {
-          left: 94%;
+          left: 93.3%;
         }
         @media screen and (max-width: 425px) {
-          left: 91%;
+          left: 78%;
+          top: 33%;
           scale: 0.7;
         }
         top: calc(50% - 17px);
