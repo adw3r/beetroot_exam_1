@@ -1103,6 +1103,8 @@ body {
 .section-video .video-wrap .circle {
   position: absolute;
   top: calc(50% - 17px);
+  max-width: 50px;
+  max-height: 50px;
 }
 .section-video .video-wrap .circle-sm {
   top: calc(50% - 7px);

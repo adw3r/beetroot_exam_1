@@ -368,6 +368,8 @@ body {
     .circle {
       position: absolute;
       top: calc(50% - 17px);
+      max-width: 50px;
+      max-height: 50px;
 
       &-sm {
         svg {
