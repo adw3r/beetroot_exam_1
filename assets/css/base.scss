@@ -29,7 +29,7 @@ $i-color: #689FF2;
 }
 
 body {
-  background-image: url("/assets/images/light/bg.jpg");
+  background-image: url("assets/images/light/bg.jpg");
   background-color: #FFFFFF;
   transition: all .2s ease;
   font-size: 1rem;
@@ -50,7 +50,7 @@ body {
     filter: invert(1);
   }
   body {
-    background-image: url("/assets/images/dark/bg.jpg");
+    background-image: url("assets/images/dark/bg.jpg");
     background-color: #161926;
   }
   .section-info.container > div.text-wrap {

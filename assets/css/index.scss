@@ -201,7 +201,7 @@
 }
 
 .blockquote {
-  background: url("/assets/images/quote-background.jpg") center center no-repeat;
+  background: url("assets/images/quote-background.jpg") center center no-repeat;
   @media screen and (max-width: 425px) {
     background-size: cover;
     margin-bottom: 30px;
