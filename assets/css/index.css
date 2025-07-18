@@ -222,6 +222,11 @@ form {
   align-items: start;
   border: none;
 }
+@media screen and (max-width: 500px) {
+  form {
+    width: 80%;
+  }
+}
 form label {
   width: 100%;
 }
@@ -497,7 +502,7 @@ footer .made-by {
   display: inline-block;
   margin-right: 9px;
 }
-@media screen and (max-width: 737px) {
+@media screen and (max-width: 500px) {
   footer {
     flex-direction: column;
   }
@@ -506,6 +511,11 @@ footer nav ul {
   display: flex;
   flex-direction: row;
   gap: 32px;
+}
+@media screen and (max-width: 737px) {
+  footer nav ul {
+    gap: 16px;
+  }
 }
 
 iframe {
