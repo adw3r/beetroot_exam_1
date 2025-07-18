@@ -722,14 +722,6 @@ iframe {
   opacity: 0.5;
 }
 
-[data-theme=dark] body {
-  background-image: url("/assets/images/dark/bg.png");
-}
-
-[data-theme=light] body {
-  background-image: url("/assets/images/light/bg.jpg");
-}
-
 body {
   background-position: top center;
   background-repeat: no-repeat;
