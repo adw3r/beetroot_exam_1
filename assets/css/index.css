@@ -898,6 +898,12 @@ body {
     left: 94%;
   }
 }
+@media screen and (max-width: 425px) {
+  .section-video .video-wrap .circle-xl {
+    left: 91%;
+    scale: 0.7;
+  }
+}
 
 .section-promises {
   margin-bottom: 120px;

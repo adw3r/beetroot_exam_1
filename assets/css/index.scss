@@ -331,7 +331,10 @@ body {
       &-xl {
         @media screen and (max-width: 768px) {
           left: 94%;
-
+        }
+        @media screen and (max-width: 425px) {
+          left: 91%;
+          scale: 0.7;
         }
         top: calc(50% - 17px);
         left: 95%;
