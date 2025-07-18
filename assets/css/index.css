@@ -4041,7 +4041,6 @@
 }
 
 body {
-  background-image: url(/assets/images/light/bg.jpg);
   background-color: #FFFFFF;
   transition: all 0.2s ease;
   font-size: 1rem;
@@ -4061,7 +4060,6 @@ body {
   filter: invert(1);
 }
 [data-theme=dark] body {
-  background-image: url(/assets/images/dark/bg.jpg);
   background-color: #161926;
 }
 [data-theme=dark] .section-info.container > div.text-wrap {
@@ -4731,7 +4729,8 @@ input:checked + .slider:before {
 }
 
 .blockquote {
-  background: url(/assets/images/quote-background.jpg) center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   position: relative;
   margin-bottom: 150px;
 }

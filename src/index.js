@@ -30,7 +30,12 @@ const toggle = document.getElementById('theme_switcher');
 toggle.addEventListener('change', () => {
     if (toggle.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
+        document.querySelector('body').dataset.bg = '/assets/images/dark/bg.jpg';
     } else {
         document.documentElement.setAttribute('data-theme', 'light');
+        document.querySelector('body').dataset.bg = '/assets/images/light/bg.jpg';
     }
+    document.querySelector('body').removeAttribute('data-ll-status');        // если есть кастомные метки
+    lazyLoadInstance.update()
+
 });
