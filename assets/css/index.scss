@@ -150,6 +150,9 @@ body {
     li {
       border-top: 1px solid rgba(0, 0, 0, 0.15);
       padding: 51px 54px 18px 35px;
+      @media screen and (max-width: 425px) {
+        padding: 0;
+      }
 
       h2 {
         margin-bottom: 31px;
