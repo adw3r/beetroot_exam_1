@@ -435,6 +435,12 @@ cite {
 .hamburger {
   display: none;
 }
+@media screen and (max-width: 670px) {
+  .hamburger {
+    display: block;
+  }
+}
+
 header {
   position: sticky;
   top: 0;

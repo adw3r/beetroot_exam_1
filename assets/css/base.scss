@@ -263,14 +263,12 @@ cite {
   position: absolute;
 }
 .hamburger {
+  //width: 50px;
+  //height: 50px;
   display: none;
-  @media screen and (max-width: 659px){
+  @media screen and (max-width: 670px){
+    display: block;
   }
-}
-a {
-  //box-shadow: $red-dark;
-
-
 }
 header {
   position: sticky;
