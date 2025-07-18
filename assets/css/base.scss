@@ -1,4 +1,5 @@
 @use "fonts.css";
+@use "hamburger";
 
 $container-width: min(95%, 1170px);
 $primary-dark-blue: #262A3F;
@@ -241,9 +242,10 @@ cite {
   position: absolute;
 }
 .hamburger {
-  visibility: hidden;
-  opacity: 0;
   display: none;
+  @media screen and (max-width: 659px){
+
+  }
 }
 header {
   position: sticky;
