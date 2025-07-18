@@ -13,7 +13,12 @@
 
     <link href="assets/css/index.min.css" rel="stylesheet">
 </head>
-<body class="lazy" data-bg="assets/images/light/bg.jpg" data-bg-hidpi="assets/images/light/bg@2x.jpg">
+<body >
+<label class="switch" >
+    <input type="checkbox" id="theme_switcher">
+    <span class="slider round"></span>
+</label>
+
 <div class="mobile-menu">
     <div class="overlay" onclick="toggleMenu()"></div>
     <nav>
@@ -295,7 +300,7 @@
                 </hgroup>
                 <form action="/contact-us" method="POST">
                     <label>
-                        <input name="name" placeholder="Your name" required type="text">
+                        <input name="name" placeholder="Your name" required type="text" >
                     </label>
                     <label>
                         <input name="email"
@@ -330,10 +335,6 @@
                 </li>
             </ul>
         </nav>
-        <label class="switch" >
-            <input type="checkbox" id="theme_switcher">
-            <span class="slider round"></span>
-        </label>
 
     </footer>
 </div>

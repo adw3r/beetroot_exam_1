@@ -361,6 +361,69 @@ body {
   color: #262A3F;
   overflow-y: scroll;
   font-family: Lato, sans-serif;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100dvw 100dvh;
+}
+
+[data-theme=dark] a {
+  color: white;
+}
+[data-theme=dark] .logo {
+  filter: invert(1);
+}
+[data-theme=dark] body {
+  background-image: url("/assets/images/dark/bg.jpg");
+  background-color: #161926;
+}
+[data-theme=dark] .section-info.container > div.text-wrap {
+  background-color: #161926;
+}
+[data-theme=dark] header {
+  background: linear-gradient(270deg, rgba(22, 25, 38, 0.5) 0%, rgba(22, 25, 38, 0) 24.1%, rgba(22, 25, 38, 0) 47.19%), rgba(22, 25, 38, 0.02);
+  backdrop-filter: blur(4.5px);
+}
+[data-theme=dark] h1, [data-theme=dark] h2, [data-theme=dark] h3, [data-theme=dark] h4, [data-theme=dark] h5, [data-theme=dark] h6, [data-theme=dark] p {
+  color: #fff;
+}
+[data-theme=dark] div.section-info.container > div.text-wrap > ul > li > * {
+  color: #fff;
+}
+[data-theme=dark] .btn {
+  color: #53F3CD;
+}
+[data-theme=dark] .btn:hover, [data-theme=dark] .btn:focus {
+  color: #02E0AB;
+}
+[data-theme=dark] .btn:hover span:after, [data-theme=dark] .btn:focus span:after {
+  background-color: #02E0AB;
+}
+[data-theme=dark] .btn span:after {
+  background-color: #53F3CD;
+}
+[data-theme=dark] i {
+  color: #689FF2;
+}
+[data-theme=dark] .play-button {
+  filter: invert(1);
+}
+[data-theme=dark] .section-promises .content-wrap {
+  background-color: #161926;
+}
+[data-theme=dark] footer span {
+  color: white;
+}
+[data-theme=dark] form {
+  color: #fff; /* Optional: ensures text is visible on dark bg */
+}
+
+[data-theme=light] body {
+  background-image: url("/assets/images/light/bg.jpg");
+  background-color: #FFFFFF;
+}
+[data-theme=light] .section-info.container > div.text-wrap {
+  background-color: #FFF;
 }
 
 .page-wrapper {
@@ -406,6 +469,9 @@ form {
   gap: 40px;
   align-items: start;
   border: none;
+}
+form input {
+  background-color: transparent; /* or use same color as parent */
 }
 @media (max-width: 900px) {
   form {
@@ -771,8 +837,6 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
@@ -783,13 +847,6 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-}
-
-body {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: 100dvw 100dvh;
 }
 
 .hero {
@@ -859,7 +916,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   opacity: 0.9;
-  background: #FFF;
+  background-color: #FFF;
   max-width: 770px;
   align-self: center;
 }

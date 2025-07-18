@@ -1,23 +1,5 @@
 @use "base" as *;
 
-[data-theme="dark"] {
-  body {
-    //background-image: url("/assets/images/dark/bg.png");
-  }
-}
-
-[data-theme="light"] {
-  body {
-    //background-image: url("/assets/images/light/bg.jpg");
-  }
-}
-
-body {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background-size: 100dvw 100dvh;
-}
 
 
 .hero {
@@ -94,7 +76,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 0.9;
-    background: #FFF;
+
+    background-color: #FFF;
     max-width: 770px;
     align-self: center;
 
