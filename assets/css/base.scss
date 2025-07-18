@@ -324,6 +324,9 @@ iframe {
   height: 100%;
 }
 .play-button {
+  &:hover {
+    opacity: .5;
+  }
   border: none;
   background: none;
   position: absolute;

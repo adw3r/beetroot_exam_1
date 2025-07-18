@@ -387,6 +387,9 @@ iframe {
   top: 48%;
   transform: translate(-50%, -50%);
 }
+.play-button:hover {
+  opacity: 0.5;
+}
 
 [data-theme=dark] body {
   background-image: url("/assets/images/dark/bg.png");
