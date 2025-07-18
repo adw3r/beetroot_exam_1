@@ -727,7 +727,7 @@ body {
   height: 340px;
   width: 370px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1170px) {
   .section-client-reviews ul li {
     height: auto;
   }
@@ -752,7 +752,7 @@ body {
   background: rgba(25, 28, 41, 0.6);
   padding: 30px 40px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1170px) {
   .section-client-reviews ul li blockquote {
     gap: 50px;
   }
