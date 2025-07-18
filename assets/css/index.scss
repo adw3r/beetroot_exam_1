@@ -377,6 +377,10 @@ body {
         padding-block: 15px;
       }
     }
+    @media screen and (max-width: 425px) {
+      height: auto;
+      width: 80%;
+    }
 
     row-gap: 60px;
     column-gap: 100px;

@@ -947,6 +947,12 @@ body {
     padding-block: 15px;
   }
 }
+@media screen and (max-width: 425px) {
+  .section-promises .content-wrap {
+    height: auto;
+    width: 80%;
+  }
+}
 .section-promises .content-wrap .mb-30 {
   margin-bottom: 10px;
 }
