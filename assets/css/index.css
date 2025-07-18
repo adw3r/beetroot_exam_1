@@ -4056,6 +4056,10 @@ body {
 [data-theme=dark] a {
   color: white;
 }
+[data-theme=dark] a:after {
+  opacity: 0.3;
+  background: var(--text-linear-green, linear-gradient(97deg, #53F3CD 6.73%, rgba(83, 243, 205, 0) 116.9%));
+}
 [data-theme=dark] .logo {
   filter: invert(1);
 }
