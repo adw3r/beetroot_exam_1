@@ -222,7 +222,7 @@ form {
   align-items: start;
   border: none;
 }
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
   form {
     width: 80%;
     max-width: 450px;
@@ -576,6 +576,11 @@ body {
   justify-content: end;
   position: relative;
 }
+@media screen and (max-width: 425px) {
+  .section-info {
+    height: 100%;
+  }
+}
 @media screen and (max-width: 809px) {
   .section-info .img-wrap {
     width: 100%;
@@ -596,8 +601,10 @@ body {
     padding: 90px 0;
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 660px) {
   .section-info .text-wrap {
+    padding: 0;
+    gap: 25px;
     grid-template-columns: 1fr;
   }
 }
@@ -606,6 +613,11 @@ body {
   gap: 79px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 660px) {
+  .section-info .text-wrap .stats-list {
+    gap: 25px;
+  }
 }
 .section-info .text-wrap .stats-list li:not(:last-child)::after {
   content: "";
@@ -648,6 +660,11 @@ body {
 .section-info .text-wrap .content {
   margin-left: -15px;
   letter-spacing: 0.009rem;
+}
+@media screen and (max-width: 660px) {
+  .section-info .text-wrap .content {
+    margin: 0;
+  }
 }
 .section-info .text-wrap .content p {
   margin-bottom: 50px;

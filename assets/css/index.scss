@@ -34,6 +34,9 @@ body {
 
 .section-info {
   margin-bottom: 120px;
+  @media screen and (max-width: 425px) {
+    height: 100%;
+  }
   height: 670px;
   display: flex;
   flex-direction: row;
@@ -45,6 +48,8 @@ body {
       height: 100%;
     }
   }
+  @media screen and (max-width: 425px) {
+  }
 
 
   .text-wrap {
@@ -52,7 +57,9 @@ body {
     @media screen and (max-width: 809px) {
       padding: 90px 0;
     }
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 660px) {
+      padding: 0;
+      gap: 25px;
       grid-template-columns: 1fr;
     }
     display: grid;
@@ -63,6 +70,10 @@ body {
     align-self: center;
 
     .stats-list {
+      @media screen and (max-width: 660px){
+        gap: 25px;
+        
+      }
       li:not(:last-child)::after {
         content: "";
         display: block;
@@ -113,6 +124,10 @@ body {
     }
 
     .content {
+      @media screen and (max-width: 660px){
+        margin: 0;
+        
+      }
       margin-left: -15px;
       letter-spacing: 0.009rem;
 
