@@ -15,15 +15,28 @@ body {
 .hero {
   padding: 150px 0;
   @media screen and (max-width: 768px) {
-    padding: 110px 0;
+    padding: 60px 0;
   }
 
   .first-screen {
     max-width: 530px;
     @media screen and (max-width: 768px) {
+      p {
+        font-size: 1.2rem;
+      }
       h1 {
         font-size: 2rem;
         max-width: 70%;
+      }
+    }
+    @media screen and (max-width: 425px) {
+      p {
+        width: 70%;
+      }
+    }
+    @media screen and (max-width: 320px) {
+      p {
+        width: 80%;
       }
     }
 

@@ -558,16 +558,29 @@ body {
 }
 @media screen and (max-width: 768px) {
   .hero {
-    padding: 110px 0;
+    padding: 60px 0;
   }
 }
 .hero .first-screen {
   max-width: 530px;
 }
 @media screen and (max-width: 768px) {
+  .hero .first-screen p {
+    font-size: 1.2rem;
+  }
   .hero .first-screen h1 {
     font-size: 2rem;
     max-width: 70%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .hero .first-screen p {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero .first-screen p {
+    width: 80%;
   }
 }
 .hero .first-screen h1 {
