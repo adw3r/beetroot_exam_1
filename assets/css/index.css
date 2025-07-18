@@ -300,6 +300,11 @@ cite {
   position: absolute;
 }
 
+.hamburger {
+  visibility: hidden;
+  opacity: 0;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -312,6 +317,15 @@ header {
 @media screen and (max-width: 768px) {
   header {
     margin-top: 0;
+  }
+}
+@media screen and (max-width: 670px) {
+  header nav {
+    display: none;
+  }
+  header .hamburger {
+    visibility: visible;
+    opacity: 1;
   }
 }
 header .container {
@@ -444,6 +458,11 @@ body {
 @media screen and (max-width: 809px) {
   .section-info .text-wrap {
     padding: 90px 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-info .text-wrap {
+    grid-template-columns: 1fr;
   }
 }
 .section-info .text-wrap .stats-list {

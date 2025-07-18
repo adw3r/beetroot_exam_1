@@ -43,7 +43,14 @@
                         <a href="#" rel="nofollow" title="Resources">Resources</a>
                     </li>
                 </ul>
+                <button class="hamburger hamburger--collapse" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-in3ner"></span>
+                  </span>
+                </button>
+
             </nav>
+
         </div>
     </header>
     <main>
@@ -149,19 +156,24 @@
         <section class="section-video">
             <div class="container">
                 <div class="video-wrap">
-                    <svg fill="none" height="13" viewBox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg" class="circle circle-sm">
+                    <svg class="circle circle-sm" fill="none" height="13" viewBox="0 0 13 13" width="13"
+                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="6.5" cy="6.5" r="6" stroke="#E4E4E4"/>
                     </svg>
                     <div class="inner-video-wrap">
-                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen frameborder="0"
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen frameborder="0"
                                 referrerpolicy="strict-origin-when-cross-origin"
                                 src="https://www.youtube.com/embed/vnbN9V_2Guk?si=eZs7DGGkGR660rTq"
-                                title="YouTube video player" ></iframe>
-                        <button onclick="displayVideo(this)" class="play-button">
-                            <svg><use xlink:href="assets/icons/play-button.svg"></use></svg>
+                                title="YouTube video player"></iframe>
+                        <button class="play-button" onclick="displayVideo(this)">
+                            <svg>
+                                <use xlink:href="assets/icons/play-button.svg"></use>
+                            </svg>
                         </button>
                     </div>
-                    <svg fill="none" height="35" viewBox="0 0 35 35" width="35" xmlns="http://www.w3.org/2000/svg" class="circle circle-xl">
+                    <svg class="circle circle-xl" fill="none" height="35" viewBox="0 0 35 35" width="35"
+                         xmlns="http://www.w3.org/2000/svg">
                         <circle cx="17.5" cy="17.5" r="17" stroke="#E4E4E4"/>
                     </svg>
                 </div>
@@ -251,12 +263,12 @@
                 </hgroup>
                 <form action="/contact-us" method="POST">
                     <label>
-                        <input name="name" placeholder="Your name" required type="text" >
+                        <input name="name" placeholder="Your name" required type="text">
                     </label>
                     <label>
                         <input name="email"
-                               placeholder="Email" required
-                               type="email" pattern='^[a-zA-Z0-9._%+-]+@example\.com$'>
+                               pattern='^[a-zA-Z0-9._%+-]+@example\.com$' placeholder="Email"
+                               required type="email">
                     </label>
                     <label>
                         <input name="description" placeholder="Tell more" required type="text">
