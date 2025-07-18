@@ -326,9 +326,20 @@ header .container nav ul {
   gap: 28px;
 }
 header .container nav ul li {
+  position: relative;
   transition: all 0.2s ease;
 }
-header .container nav ul li:hover {
+header .container nav ul li:hover::after, header .container nav ul li:focus::after {
+  content: "";
+  width: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 3px;
+  position: absolute;
+  background-color: #F1897B;
+}
+header .container nav ul li:active {
   scale: 1.3;
 }
 
