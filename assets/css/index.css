@@ -726,8 +726,14 @@ iframe {
   background-image: url("/assets/images/dark/bg.png");
 }
 
+[data-theme=light] body {
+  background-image: url("/assets/images/light/bg.jpg");
+}
+
 body {
-  background: url("/assets/images/light/bg.jpg") no-repeat top center/contain local;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: local;
   background-size: 100dvw 100dvh;
 }
 
