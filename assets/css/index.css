@@ -417,6 +417,22 @@ cite {
 .hamburger {
   display: none;
 }
+a::after {
+  transition: all 0.2s ease;
+  content: "";
+  width: 0;
+  display: block;
+  height: 3px;
+  position: relative;
+  background-color: #F1897B;
+}
+a:hover::after, a:focus::after {
+  width: 100%;
+}
+a:active {
+  scale: 1.3;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -450,24 +466,6 @@ header .container nav {
 header .container nav ul {
   display: flex;
   gap: 28px;
-}
-header .container nav ul li {
-  position: relative;
-  transition: all 0.2s ease;
-}
-header .container nav ul li::after {
-  transition: all 0.2s ease;
-  content: "";
-  width: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  display: block;
-  height: 3px;
-  position: absolute;
-  background-color: #F1897B;
-}
-header .container nav ul li:hover::after, header .container nav ul li:focus::after {
-  width: 35px;
 }
 header .container nav ul li:active {
   scale: 1.3;

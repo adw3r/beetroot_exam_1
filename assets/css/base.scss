@@ -246,6 +246,28 @@ cite {
   @media screen and (max-width: 659px){
   }
 }
+a {
+  &::after {
+    transition: all 0.2s ease;
+    content: "";
+    width: 0;
+    //left: 70%;
+    //transform: translateX(-50%);
+    display: block;
+    height: 3px;
+    position: relative;
+    background-color: $text_red
+  }
+  &:hover, &:focus {
+    &::after {
+      width: 100%;
+    }
+  }
+  &:active {
+    scale: 1.3;
+  }
+
+}
 header {
   position: sticky;
   top: 0;
@@ -279,24 +301,24 @@ header {
         display: flex;
         gap: 28px;
         li {
-          position: relative;
-          transition: all 0.2s ease;
-          &::after {
-            transition: all 0.2s ease;
-            content: "";
-            width: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            display: block;
-            height: 3px;
-            position: absolute;
-            background-color: $text_red
-          }
-          &:hover, &:focus {
-            &::after {
-              width: 35px;
-            }
-          }
+          //position: relative;
+          //transition: all 0.2s ease;
+          //&::after {
+          //  transition: all 0.2s ease;
+          //  content: "";
+          //  width: 0;
+          //  left: 50%;
+          //  transform: translateX(-50%);
+          //  display: block;
+          //  height: 3px;
+          //  position: absolute;
+          //  background-color: $text_red
+          //}
+          //&:hover, &:focus {
+          //  &::after {
+          //    width: 35px;
+          //  }
+          //}
           &:active {
             scale: 1.3;
           }
