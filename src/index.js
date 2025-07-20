@@ -11,6 +11,7 @@ const displayVideo = (btn) => {
     frame.style.visibility = "visible";
     frame.style.opacity = "1";
     btn.style.display = "none";
+    document.querySelector('.inner-video-wrap').dataset.bg = '';
 }
 document.displayVideo = displayVideo
 

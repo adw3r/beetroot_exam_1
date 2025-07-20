@@ -201,8 +201,6 @@
 }
 
 .blockquote {
-  //background: url(/assets/images/quote-background.jpg);
-  //height: 100%;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -325,7 +323,9 @@
     position: relative;
 
     .inner-video-wrap {
-      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+      //background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+      background-image: url("/assets/images/screensaver-video.png");
+
       background-size: cover;
       background-repeat: no-repeat;
       border-radius: 12px;
