@@ -202,7 +202,9 @@
 
 .blockquote {
   //background: url(/assets/images/quote-background.jpg);
+  //height: 100%;
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
   @media screen and (max-width: 425px) {
     background-size: cover;
