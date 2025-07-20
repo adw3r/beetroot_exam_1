@@ -4939,8 +4939,8 @@ input:checked + .slider:before {
 }
 @media screen and (max-width: 425px) {
   .section-video .video-wrap .circle-xl {
-    left: 78%;
-    top: 33%;
+    left: 87%;
+    top: 38%;
     scale: 0.7;
   }
 }

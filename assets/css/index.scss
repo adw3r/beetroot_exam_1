@@ -324,7 +324,6 @@
 
     .inner-video-wrap {
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
-      //background-image: url("/assets/images/screensaver-video.png");
 
       background-size: cover;
       background-repeat: no-repeat;
@@ -376,8 +375,8 @@
           left: 93.3%;
         }
         @media screen and (max-width: 425px) {
-          left: 78%;
-          top: 33%;
+          left: 87%;
+          top: 38%;
           scale: 0.7;
         }
         top: calc(50% - 17px);
