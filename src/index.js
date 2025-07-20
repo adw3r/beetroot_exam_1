@@ -1,4 +1,6 @@
 import LazyLoad from "vanilla-lazyload";
+import WOW from "wow.js";
+new WOW().init();
 
 const lazyLoadInstance = new LazyLoad();
 lazyLoadInstance.update()
